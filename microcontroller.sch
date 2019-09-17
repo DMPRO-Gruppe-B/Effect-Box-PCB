@@ -1,7 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:Effect-Box-cache
-LIBS:dmpro-cache
-LIBS:dmpro2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -17,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dmpro-rescue:EFM32GG942F1024 U?
+L Effect-Box-rescue:EFM32GG942F1024-dmpro-rescue U?
 U 1 1 5D7F7450
 P 4450 2250
+AR Path="/5D7F7450" Ref="U?"  Part="1" 
+AR Path="/5D7D441F/5D7F7450" Ref="U?"  Part="1" 
 F 0 "U?" H 5550 2650 60  0000 C CNN
 F 1 "EFM32GG942F1024" H 5550 2550 60  0000 C CNN
 F 2 "QFP64_10X10" H 5550 2490 60  0001 C CNN
@@ -28,9 +28,11 @@ F 3 "" H 4450 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dmpro-rescue:GND #PWR?
+L Effect-Box-rescue:GND-dmpro-rescue #PWR?
 U 1 1 5D7F8673
 P 3150 2950
+AR Path="/5D7F8673" Ref="#PWR?"  Part="1" 
+AR Path="/5D7D441F/5D7F8673" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3150 2700 50  0001 C CNN
 F 1 "GND" H 3150 2800 50  0000 C CNN
 F 2 "" H 3150 2950 50  0001 C CNN
@@ -148,9 +150,11 @@ Wire Wire Line
 Wire Wire Line
 	8750 3300 8750 3750
 $Comp
-L dmpro-rescue:GND #PWR?
+L Effect-Box-rescue:GND-dmpro-rescue #PWR?
 U 1 1 5D7F97BF
 P 10050 4200
+AR Path="/5D7F97BF" Ref="#PWR?"  Part="1" 
+AR Path="/5D7D441F/5D7F97BF" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 10050 3950 50  0001 C CNN
 F 1 "GND" H 10050 4050 50  0000 C CNN
 F 2 "" H 10050 4200 50  0001 C CNN
@@ -159,9 +163,11 @@ F 3 "" H 10050 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dmpro-rescue:Conn_ARM_JTAG_SWD_20 J?
+L Effect-Box-rescue:Conn_ARM_JTAG_SWD_20-dmpro-rescue J?
 U 1 1 5D7F9345
 P 9950 3400
+AR Path="/5D7F9345" Ref="J?"  Part="1" 
+AR Path="/5D7D441F/5D7F9345" Ref="J?"  Part="1" 
 F 0 "J?" H 9750 4250 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_20" H 9750 4150 50  0000 R BNN
 F 2 "" H 10400 2350 50  0001 L TNN
@@ -170,9 +176,11 @@ F 3 "" V 9600 2150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dmpro-rescue:C C?
+L Effect-Box-rescue:C-dmpro-rescue C?
 U 1 1 5D7F90BC
 P 2600 6550
+AR Path="/5D7F90BC" Ref="C?"  Part="1" 
+AR Path="/5D7D441F/5D7F90BC" Ref="C?"  Part="1" 
 F 0 "C?" H 2625 6650 50  0000 L CNN
 F 1 "C" H 2625 6450 50  0000 L CNN
 F 2 "" H 2638 6400 50  0001 C CNN
@@ -181,9 +189,11 @@ F 3 "" H 2600 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dmpro-rescue:C C?
+L Effect-Box-rescue:C-dmpro-rescue C?
 U 1 1 5D7F908A
 P 1600 6550
+AR Path="/5D7F908A" Ref="C?"  Part="1" 
+AR Path="/5D7D441F/5D7F908A" Ref="C?"  Part="1" 
 F 0 "C?" H 1625 6650 50  0000 L CNN
 F 1 "C" H 1625 6450 50  0000 L CNN
 F 2 "" H 1638 6400 50  0001 C CNN
@@ -192,9 +202,11 @@ F 3 "" H 1600 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dmpro-rescue:GND #PWR?
+L Effect-Box-rescue:GND-dmpro-rescue #PWR?
 U 1 1 5D7F9042
 P 2100 6800
+AR Path="/5D7F9042" Ref="#PWR?"  Part="1" 
+AR Path="/5D7D441F/5D7F9042" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2100 6550 50  0001 C CNN
 F 1 "GND" H 2100 6650 50  0000 C CNN
 F 2 "" H 2100 6800 50  0001 C CNN
@@ -203,9 +215,11 @@ F 3 "" H 2100 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dmpro-rescue:GND #PWR?
+L Effect-Box-rescue:GND-dmpro-rescue #PWR?
 U 1 1 5D7F8FCF
 P 1900 5500
+AR Path="/5D7F8FCF" Ref="#PWR?"  Part="1" 
+AR Path="/5D7D441F/5D7F8FCF" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1900 5250 50  0001 C CNN
 F 1 "GND" H 1900 5350 50  0000 C CNN
 F 2 "" H 1900 5500 50  0001 C CNN
@@ -214,9 +228,11 @@ F 3 "" H 1900 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dmpro-rescue:Crystal_GND24 Y?
+L Effect-Box-rescue:Crystal_GND24-dmpro-rescue Y?
 U 1 1 5D7F8E7E
 P 2100 6100
+AR Path="/5D7F8E7E" Ref="Y?"  Part="1" 
+AR Path="/5D7D441F/5D7F8E7E" Ref="Y?"  Part="1" 
 F 0 "Y?" H 2225 6300 50  0000 L CNN
 F 1 "Crystal_GND24" H 2225 6225 50  0000 L CNN
 F 2 "" H 2100 6100 50  0001 C CNN
@@ -225,9 +241,11 @@ F 3 "" H 2100 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dmpro-rescue:GND #PWR?
+L Effect-Box-rescue:GND-dmpro-rescue #PWR?
 U 1 1 5D7F8D54
 P 7800 4500
+AR Path="/5D7F8D54" Ref="#PWR?"  Part="1" 
+AR Path="/5D7D441F/5D7F8D54" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7800 4250 50  0001 C CNN
 F 1 "GND" H 7800 4350 50  0000 C CNN
 F 2 "" H 7800 4500 50  0001 C CNN
@@ -236,9 +254,11 @@ F 3 "" H 7800 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dmpro-rescue:C C?
+L Effect-Box-rescue:C-dmpro-rescue C?
 U 1 1 5D7F8CED
 P 7800 4350
+AR Path="/5D7F8CED" Ref="C?"  Part="1" 
+AR Path="/5D7D441F/5D7F8CED" Ref="C?"  Part="1" 
 F 0 "C?" H 7825 4450 50  0000 L CNN
 F 1 "C" H 7825 4250 50  0000 L CNN
 F 2 "" H 7838 4200 50  0001 C CNN
@@ -247,9 +267,11 @@ F 3 "" H 7800 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dmpro-rescue:+3.3V #PWR?
+L Effect-Box-rescue:+3.3V-dmpro-rescue #PWR?
 U 1 1 5D7F877D
 P 5450 1300
+AR Path="/5D7F877D" Ref="#PWR?"  Part="1" 
+AR Path="/5D7D441F/5D7F877D" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5450 1150 50  0001 C CNN
 F 1 "+3.3V" H 5450 1440 50  0000 C CNN
 F 2 "" H 5450 1300 50  0001 C CNN
@@ -258,9 +280,11 @@ F 3 "" H 5450 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dmpro-rescue:GND #PWR?
+L Effect-Box-rescue:GND-dmpro-rescue #PWR?
 U 1 1 5D7F8568
 P 7800 3050
+AR Path="/5D7F8568" Ref="#PWR?"  Part="1" 
+AR Path="/5D7D441F/5D7F8568" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7800 2800 50  0001 C CNN
 F 1 "GND" H 7800 2900 50  0000 C CNN
 F 2 "" H 7800 3050 50  0001 C CNN
