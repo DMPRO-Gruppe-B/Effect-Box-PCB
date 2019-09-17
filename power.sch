@@ -1,5 +1,7 @@
 EESchema Schematic File Version 4
 LIBS:power-cache
+LIBS:Effect-Box-cache
+
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
