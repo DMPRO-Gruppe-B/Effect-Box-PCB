@@ -336,7 +336,7 @@ F 3 "~" H 3400 4900 50  0001 C CNN
 $EndComp
 Connection ~ 3400 4750
 Wire Wire Line
-	3400 4750 4450 4750
+	3400 4750 4350 4750
 $Comp
 L power:GND #PWR?
 U 1 1 5D814E43
@@ -413,4 +413,101 @@ Wire Wire Line
 Wire Wire Line
 	3150 1700 3150 2550
 Connection ~ 3150 2550
+Wire Wire Line
+	4450 4850 4350 4850
+Wire Wire Line
+	4350 4850 4350 4750
+Connection ~ 4350 4750
+Wire Wire Line
+	4350 4750 4450 4750
+Wire Wire Line
+	4450 4450 4350 4450
+Wire Wire Line
+	4350 4450 4350 4750
+Wire Wire Line
+	4350 4450 3950 4450
+Wire Wire Line
+	3950 4450 3950 4850
+Connection ~ 4350 4450
+Wire Wire Line
+	4350 4850 3950 4850
+Connection ~ 4350 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5D8251E8
+P 3800 6650
+F 0 "#PWR?" H 3800 6400 50  0001 C CNN
+F 1 "GND" H 3805 6477 50  0000 C CNN
+F 2 "" H 3800 6650 50  0001 C CNN
+F 3 "" H 3800 6650 50  0001 C CNN
+	1    3800 6650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 6350
+$Comp
+L Device:C C_avdd_1
+U 1 1 5D824795
+P 3800 6500
+F 0 "C_avdd_1" H 3915 6546 50  0000 L CNN
+F 1 "10 nF" H 3915 6455 50  0000 L CNN
+F 2 "" H 3838 6350 50  0001 C CNN
+F 3 "~" H 3800 6500 50  0001 C CNN
+	1    3800 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D82344B
+P 3250 6650
+F 0 "#PWR?" H 3250 6400 50  0001 C CNN
+F 1 "GND" H 3255 6477 50  0000 C CNN
+F 2 "" H 3250 6650 50  0001 C CNN
+F 3 "" H 3250 6650 50  0001 C CNN
+	1    3250 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5700 3800 6350
+Wire Wire Line
+	3800 6350 3250 6350
+$Comp
+L Device:C C_avdd_0
+U 1 1 5D81D35D
+P 3250 6500
+F 0 "C_avdd_0" H 3365 6546 50  0000 L CNN
+F 1 "10 nF" H 3365 6455 50  0000 L CNN
+F 2 "" H 3288 6350 50  0001 C CNN
+F 3 "~" H 3250 6500 50  0001 C CNN
+	1    3250 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4850 3950 5700
+Wire Wire Line
+	3950 5700 3800 5700
+Connection ~ 3950 4850
+$Comp
+L Device:C C_avdd
+U 1 1 5D839716
+P 4400 6500
+F 0 "C_avdd" H 4515 6546 50  0000 L CNN
+F 1 "10 µF" H 4515 6455 50  0000 L CNN
+F 2 "" H 4438 6350 50  0001 C CNN
+F 3 "~" H 4400 6500 50  0001 C CNN
+	1    4400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D83A872
+P 4400 6650
+F 0 "#PWR?" H 4400 6400 50  0001 C CNN
+F 1 "GND" H 4405 6477 50  0000 C CNN
+F 2 "" H 4400 6650 50  0001 C CNN
+F 3 "" H 4400 6650 50  0001 C CNN
+	1    4400 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6350 3800 6350
 $EndSCHEMATC
