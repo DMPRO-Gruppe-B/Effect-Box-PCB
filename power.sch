@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:power-cache
+LIBS:Effect-Box-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 5
 Title "Power supply unit"
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L psu-components:TPS54325 U1
+L Effect-Box-rescue:TPS54325-psu-components U1
 U 1 1 5D81CBD0
 P 5700 2300
 F 0 "U1" H 5400 2700 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 5700 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L psu-components:TPS54294 U2
+L Effect-Box-rescue:TPS54294-psu-components U2
 U 1 1 5D821E10
 P 5750 4850
 F 0 "U2" H 5450 5300 50  0000 C CNN
