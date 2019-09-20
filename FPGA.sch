@@ -1138,4 +1138,68 @@ Wire Wire Line
 Wire Wire Line
 	1400 9750 1500 9750
 Connection ~ 1500 9750
+$Comp
+L Oscillator:MAX7375AXR805 U?
+U 1 1 5E016B02
+P 700 5450
+F 0 "U?" H 471 5496 50  0000 R CNN
+F 1 "MAX7381AXR146+T" H 471 5405 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 1800 5100 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf" H 600 5450 50  0001 C CNN
+	1    700  5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E0228B1
+P 700 5000
+F 0 "#PWR?" H 700 4850 50  0001 C CNN
+F 1 "+3V3" H 715 5173 50  0000 C CNN
+F 2 "" H 700 5000 50  0001 C CNN
+F 3 "" H 700 5000 50  0001 C CNN
+	1    700  5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0231C4
+P 700 6000
+F 0 "#PWR?" H 700 5750 50  0001 C CNN
+F 1 "GND" H 705 5827 50  0000 C CNN
+F 2 "" H 700 6000 50  0001 C CNN
+F 3 "" H 700 6000 50  0001 C CNN
+	1    700  6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  5750 700  5950
+Wire Wire Line
+	700  5150 700  5100
+$Comp
+L Device:C C?
+U 1 1 5E031A74
+P 350 5800
+F 0 "C?" H 235 5754 50  0000 R CNN
+F 1 "100n" H 235 5845 50  0000 R CNN
+F 2 "" H 388 5650 50  0001 C CNN
+F 3 "~" H 350 5800 50  0001 C CNN
+	1    350  5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	350  5950 700  5950
+Connection ~ 700  5950
+Wire Wire Line
+	700  5950 700  6000
+Wire Wire Line
+	350  5650 350  5100
+Wire Wire Line
+	350  5100 700  5100
+Connection ~ 700  5100
+Wire Wire Line
+	700  5100 700  5000
+Wire Wire Line
+	1100 5450 1100 4400
+Wire Wire Line
+	1100 4400 1600 4400
 $EndSCHEMATC
