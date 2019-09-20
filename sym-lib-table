@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Effect-Box-rescue)(type Legacy)(uri ${KIPRJMOD}/Effect-Box-rescue.lib)(options "")(descr ""))
+  (lib (name sit-oscillator)(type Legacy)(uri ${KIPRJMOD}/library/sit-oscillator.lib)(options "")(descr ""))
 )
