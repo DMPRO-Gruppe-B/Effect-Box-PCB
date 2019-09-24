@@ -277,17 +277,6 @@ Text Label 5900 5600 0    50   ~ 0
 SRAM_ub#
 Text Label 5900 5700 0    50   ~ 0
 SRAM_lb#
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5DA6CE44
-P 9100 900
-F 0 "#PWR?" H 9100 750 50  0001 C CNN
-F 1 "+3.3V" H 9115 1073 50  0000 C CNN
-F 2 "" H 9100 900 50  0001 C CNN
-F 3 "" H 9100 900 50  0001 C CNN
-	1    9100 900 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 900  9100 1100
 $Comp
@@ -316,4 +305,15 @@ NoConn ~ 5900 6200
 NoConn ~ 5900 6300
 NoConn ~ 5900 6400
 NoConn ~ 5900 6500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DB40E20
+P 9100 900
+F 0 "#PWR?" H 9100 750 50  0001 C CNN
+F 1 "+3V3" H 9115 1073 50  0000 C CNN
+F 2 "" H 9100 900 50  0001 C CNN
+F 3 "" H 9100 900 50  0001 C CNN
+	1    9100 900 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
