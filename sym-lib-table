@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name Effect-Box-rescue)(type Legacy)(uri ${KIPRJMOD}/Effect-Box-rescue.lib)(options "")(descr ""))
+  (lib (name tps54294)(type Legacy)(uri ${KIPRJMOD}/library/tps54294.lib)(options "")(descr ""))
+  (lib (name tps54325)(type Legacy)(uri ${KIPRJMOD}/library/tps54325.lib)(options "")(descr ""))
 )
