@@ -1,0 +1,169 @@
+EESchema Schematic File Version 4
+LIBS:Effect-Box-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FPGA_Xilinx_Artix7:XC7A100T-FTG256 U?
+U 3 1 5DD77158
+P 2200 3000
+F 0 "U?" H 921 3053 50  0000 R CNN
+F 1 "XC7A100T-FTG256" H 921 2962 50  0000 R CNN
+F 2 "" H 2200 3000 50  0001 C CNN
+F 3 "" H 2200 3000 50  0000 C CNN
+	3    2200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DD7715E
+P 3300 1250
+F 0 "#PWR?" H 3300 1100 50  0001 C CNN
+F 1 "+3V3" H 3315 1423 50  0000 C CNN
+F 2 "" H 3300 1250 50  0001 C CNN
+F 3 "" H 3300 1250 50  0001 C CNN
+	1    3300 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1250 3300 1400
+$Comp
+L FPGA_Xilinx_Artix7:XC7A100T-FTG256 U?
+U 2 1 5DD77165
+P 8700 3550
+F 0 "U?" H 8700 575 50  0000 C CNN
+F 1 "XC7A100T-FTG256" H 8700 484 50  0000 C CNN
+F 2 "" H 8700 3550 50  0001 C CNN
+F 3 "" H 8700 3550 50  0000 C CNN
+	2    8700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD7716B
+P 7500 650
+F 0 "#PWR?" H 7500 400 50  0001 C CNN
+F 1 "GND" H 7505 477 50  0000 C CNN
+F 2 "" H 7500 650 50  0001 C CNN
+F 3 "" H 7500 650 50  0001 C CNN
+	1    7500 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD77171
+P 9600 650
+F 0 "#PWR?" H 9600 400 50  0001 C CNN
+F 1 "GND" H 9605 477 50  0000 C CNN
+F 2 "" H 9600 650 50  0001 C CNN
+F 3 "" H 9600 650 50  0001 C CNN
+	1    9600 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 650  9800 650 
+Connection ~ 9800 650 
+Wire Wire Line
+	9800 650  9900 650 
+Connection ~ 9900 650 
+Wire Wire Line
+	9900 650  10000 650 
+Connection ~ 10000 650 
+Wire Wire Line
+	10000 650  10100 650 
+Connection ~ 10100 650 
+Wire Wire Line
+	10100 650  10200 650 
+Connection ~ 10200 650 
+Wire Wire Line
+	10200 650  10300 650 
+Wire Wire Line
+	7100 650  7200 650 
+Connection ~ 7200 650 
+Wire Wire Line
+	7200 650  7300 650 
+Connection ~ 7300 650 
+Wire Wire Line
+	7300 650  7500 650 
+NoConn ~ 6700 1450
+NoConn ~ 6700 1550
+NoConn ~ 6700 1650
+NoConn ~ 6700 1750
+NoConn ~ 6700 1850
+NoConn ~ 6700 1950
+NoConn ~ 6700 2050
+NoConn ~ 6700 2150
+NoConn ~ 6700 2250
+NoConn ~ 6700 2350
+NoConn ~ 6700 2450
+NoConn ~ 6700 2550
+NoConn ~ 6700 2650
+NoConn ~ 6700 2750
+NoConn ~ 6700 2850
+NoConn ~ 6700 2950
+NoConn ~ 6700 3050
+NoConn ~ 6700 3150
+NoConn ~ 6700 3250
+NoConn ~ 6700 3350
+NoConn ~ 10700 1450
+NoConn ~ 10700 1550
+NoConn ~ 10700 1650
+NoConn ~ 10700 1750
+NoConn ~ 10700 1850
+NoConn ~ 10700 1950
+NoConn ~ 10700 2050
+NoConn ~ 10700 2150
+NoConn ~ 10700 2250
+NoConn ~ 10700 2350
+NoConn ~ 10700 2450
+NoConn ~ 10700 2550
+NoConn ~ 10700 2650
+NoConn ~ 10700 2750
+NoConn ~ 10700 2850
+NoConn ~ 10700 2950
+NoConn ~ 10700 3050
+NoConn ~ 10700 3150
+NoConn ~ 10700 3250
+NoConn ~ 10700 3350
+NoConn ~ 10700 3450
+NoConn ~ 10700 3550
+NoConn ~ 10700 3650
+NoConn ~ 10700 3750
+NoConn ~ 10700 3850
+NoConn ~ 10700 3950
+NoConn ~ 10700 4050
+NoConn ~ 10700 4150
+NoConn ~ 10700 4250
+NoConn ~ 10700 4350
+NoConn ~ 10700 4450
+NoConn ~ 10700 4550
+NoConn ~ 10700 4650
+NoConn ~ 10700 4750
+NoConn ~ 10700 4850
+NoConn ~ 10700 4950
+NoConn ~ 10700 5050
+NoConn ~ 10700 5150
+NoConn ~ 10700 5250
+NoConn ~ 10700 5350
+NoConn ~ 10700 5450
+NoConn ~ 10700 5550
+NoConn ~ 10700 5650
+NoConn ~ 10700 5750
+NoConn ~ 10700 5850
+NoConn ~ 10700 5950
+NoConn ~ 10700 6050
+NoConn ~ 10700 6150
+NoConn ~ 10700 6250
+NoConn ~ 10700 6350
+$EndSCHEMATC
