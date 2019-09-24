@@ -1,5 +1,8 @@
 (sym_lib_table
   (lib (name Effect-Box-rescue)(type Legacy)(uri ${KIPRJMOD}/Effect-Box-rescue.lib)(options "")(descr ""))
+  (lib (name tps54294)(type Legacy)(uri ${KIPRJMOD}/library/tps54294.lib)(options "")(descr ""))
+  (lib (name tps54325)(type Legacy)(uri ${KIPRJMOD}/library/tps54325.lib)(options "")(descr ""))
   (lib (name sit-oscillator)(type Legacy)(uri ${KIPRJMOD}/library/sit-oscillator.lib)(options "")(descr ""))
   (lib (name flash_memory)(type Legacy)(uri ${KIPRJMOD}/library/flash_memory.lib)(options "")(descr ""))
+  (lib (name LCD)(type Legacy)(uri ${KIPRJMOD}/library/lcd-components.lib)(options "")(descr ""))
 )

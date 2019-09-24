@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:Effect-Box-cache
+LIBS:power-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 1 1
 Title "Power supply unit"
 Date ""
 Rev ""
@@ -15,23 +15,27 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Effect-Box-rescue:TPS54325-psu-components U1
+L tps54325:TPS54325 U1
 U 1 1 5D81CBD0
 P 5700 2300
+AR Path="/5D81CBD0" Ref="U1"  Part="1" 
+AR Path="/5D7D4441/5D81CBD0" Ref="U1"  Part="1" 
 F 0 "U1" H 5400 2700 50  0000 C CNN
 F 1 "TPS54325" H 5900 2700 50  0000 C CNN
-F 2 "" H 5700 2300 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm" H 5700 2300 50  0001 C CNN
 F 3 "" H 5700 2300 50  0001 C CNN
 	1    5700 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Effect-Box-rescue:TPS54294-psu-components U2
+L tps54294:TPS54294 U2
 U 1 1 5D821E10
 P 5750 4850
+AR Path="/5D821E10" Ref="U2"  Part="1" 
+AR Path="/5D7D4441/5D821E10" Ref="U2"  Part="1" 
 F 0 "U2" H 5450 5300 50  0000 C CNN
 F 1 "TPS54294" H 5950 5300 50  0000 C CNN
-F 2 "" H 5750 4850 50  0001 C CNN
+F 2 "Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm" H 5750 4850 50  0001 C CNN
 F 3 "" H 5750 4850 50  0001 C CNN
 	1    5750 4850
 	1    0    0    -1  
@@ -83,12 +87,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR05
 U 1 1 5D8254FC
-P 9150 4300
-F 0 "#PWR05" H 9150 4150 50  0001 C CNN
-F 1 "+3.3V" H 9165 4473 50  0000 C CNN
-F 2 "" H 9150 4300 50  0001 C CNN
-F 3 "" H 9150 4300 50  0001 C CNN
-	1    9150 4300
+P 9100 4300
+F 0 "#PWR05" H 9100 4150 50  0001 C CNN
+F 1 "+3.3V" H 9115 4473 50  0000 C CNN
+F 2 "" H 9100 4300 50  0001 C CNN
+F 3 "" H 9100 4300 50  0001 C CNN
+	1    9100 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -447,26 +451,25 @@ $EndComp
 $Comp
 L Device:R R1
 U 1 1 5D8B8984
-P 2400 5000
-F 0 "R1" V 2300 4950 50  0000 L CNN
-F 1 "30.1k" V 2500 4900 50  0000 L CNN
-F 2 "" V 2330 5000 50  0001 C CNN
-F 3 "~" H 2400 5000 50  0001 C CNN
-	1    2400 5000
+P 2450 5000
+F 0 "R1" V 2350 4950 50  0000 L CNN
+F 1 "30.1k" V 2550 4900 50  0000 L CNN
+F 2 "" V 2380 5000 50  0001 C CNN
+F 3 "~" H 2450 5000 50  0001 C CNN
+	1    2450 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 2650 5100 1    50   ~ 0
+Text Notes 2700 5100 1    50   ~ 0
 1%
-Text Notes 2650 5500 1    50   ~ 0
+Text Notes 2700 5500 1    50   ~ 0
 1%
 Wire Wire Line
 	2750 4550 3050 4550
-Connection ~ 2750 4550
 Wire Wire Line
 	3050 4550 3200 4550
 Connection ~ 3050 4550
 Wire Wire Line
-	2400 4850 2400 4550
+	2450 4850 2450 4550
 Wire Wire Line
 	6350 5400 6350 4900
 Wire Wire Line
@@ -620,30 +623,19 @@ Wire Wire Line
 	5350 4700 3900 4700
 Wire Wire Line
 	3900 4700 3900 4550
-Connection ~ 2400 5200
 Wire Wire Line
-	2400 5200 2400 5150
-Wire Wire Line
-	2400 5200 2400 5250
-Wire Wire Line
-	2400 5550 2400 5800
+	2450 5550 2450 5800
 $Comp
 L Device:R R2
 U 1 1 5D8B96AE
-P 2400 5400
-F 0 "R2" V 2300 5350 50  0000 L CNN
-F 1 "22.1k" V 2500 5300 50  0000 L CNN
-F 2 "" V 2330 5400 50  0001 C CNN
-F 3 "~" H 2400 5400 50  0001 C CNN
-	1    2400 5400
+P 2450 5400
+F 0 "R2" V 2350 5350 50  0000 L CNN
+F 1 "22.1k" V 2550 5300 50  0000 L CNN
+F 2 "" V 2380 5400 50  0001 C CNN
+F 3 "~" H 2450 5400 50  0001 C CNN
+	1    2450 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 5200 4800 5100
-Wire Wire Line
-	4800 5100 5350 5100
-Wire Wire Line
-	2400 5200 4800 5200
 Wire Wire Line
 	3500 4550 3900 4550
 Wire Wire Line
@@ -651,9 +643,6 @@ Wire Wire Line
 Connection ~ 3900 4550
 Wire Wire Line
 	3900 4550 3900 4450
-Wire Wire Line
-	2400 5800 2750 5800
-Connection ~ 2750 5800
 Wire Wire Line
 	3050 5800 2750 5800
 Connection ~ 3050 5800
@@ -686,104 +675,80 @@ Wire Wire Line
 	7300 4600 7300 4450
 Wire Wire Line
 	6150 4700 7600 4700
-Wire Wire Line
-	7600 4700 7600 4550
 $Comp
 L Device:L L3
 U 1 1 5D9B7D8B
-P 8150 4550
-F 0 "L3" V 8250 4650 50  0000 C CNN
-F 1 "2.2u" V 8250 4450 50  0000 C CNN
-F 2 "" H 8150 4550 50  0001 C CNN
-F 3 "~" H 8150 4550 50  0001 C CNN
-	1    8150 4550
+P 7850 4550
+F 0 "L3" V 7950 4650 50  0000 C CNN
+F 1 "2.2u" V 7950 4450 50  0000 C CNN
+F 2 "" H 7850 4550 50  0001 C CNN
+F 3 "~" H 7850 4550 50  0001 C CNN
+	1    7850 4550
 	0    -1   -1   0   
 $EndComp
-Text Notes 7850 4400 0    50   ~ 0
+Text Notes 7550 4400 0    50   ~ 0
 I_p>2.9A, I_rms>2.1A
-Wire Wire Line
-	8000 4550 7600 4550
-Connection ~ 7600 4550
-Wire Wire Line
-	7600 4550 7600 4450
 $Comp
 L Device:C C19
 U 1 1 5D9C02F1
-P 8800 4700
-F 0 "C19" H 8915 4746 50  0000 L CNN
-F 1 "22u" H 8915 4655 50  0000 L CNN
-F 2 "" H 8838 4550 50  0001 C CNN
-F 3 "~" H 8800 4700 50  0001 C CNN
-	1    8800 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C18
-U 1 1 5D9C199F
 P 8500 4700
-F 0 "C18" H 8300 4750 50  0000 L CNN
-F 1 "22u" H 8250 4650 50  0000 L CNN
+F 0 "C19" H 8615 4746 50  0000 L CNN
+F 1 "22u" H 8615 4655 50  0000 L CNN
 F 2 "" H 8538 4550 50  0001 C CNN
 F 3 "~" H 8500 4700 50  0001 C CNN
 	1    8500 4700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C18
+U 1 1 5D9C199F
+P 8200 4700
+F 0 "C18" H 8000 4750 50  0000 L CNN
+F 1 "22u" H 7950 4650 50  0000 L CNN
+F 2 "" H 8238 4550 50  0001 C CNN
+F 3 "~" H 8200 4700 50  0001 C CNN
+	1    8200 4700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8300 4550 8500 4550
+	8000 4550 8200 4550
 Wire Wire Line
-	8800 4550 8500 4550
-Connection ~ 8500 4550
+	8500 4550 8200 4550
+Connection ~ 8200 4550
+Wire Wire Line
+	8200 4850 8200 5800
 Wire Wire Line
 	8500 4850 8500 5800
 Wire Wire Line
-	8500 5800 7000 5800
-Connection ~ 7000 5800
-Wire Wire Line
-	8800 4850 8800 5800
-Wire Wire Line
-	8800 5800 8500 5800
-Connection ~ 8500 5800
+	8500 5800 8200 5800
 $Comp
 L Device:R R8
 U 1 1 5D9DCC5F
-P 9150 5400
-F 0 "R8" V 9050 5350 50  0000 L CNN
-F 1 "22.1k" V 9250 5300 50  0000 L CNN
-F 2 "" V 9080 5400 50  0001 C CNN
-F 3 "~" H 9150 5400 50  0001 C CNN
-	1    9150 5400
+P 8800 5400
+F 0 "R8" V 8700 5350 50  0000 L CNN
+F 1 "22.1k" V 8900 5300 50  0000 L CNN
+F 2 "" V 8730 5400 50  0001 C CNN
+F 3 "~" H 8800 5400 50  0001 C CNN
+	1    8800 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R7
 U 1 1 5D9DE0E6
-P 9150 5000
-F 0 "R7" V 9050 4950 50  0000 L CNN
-F 1 "73.2k" V 9250 4900 50  0000 L CNN
-F 2 "" V 9080 5000 50  0001 C CNN
-F 3 "~" H 9150 5000 50  0001 C CNN
-	1    9150 5000
+P 8800 5000
+F 0 "R7" V 8700 4950 50  0000 L CNN
+F 1 "73.2k" V 8900 4900 50  0000 L CNN
+F 2 "" V 8730 5000 50  0001 C CNN
+F 3 "~" H 8800 5000 50  0001 C CNN
+	1    8800 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 9400 5100 1    50   ~ 0
+Text Notes 9050 5100 1    50   ~ 0
 1%
-Text Notes 9400 5500 1    50   ~ 0
+Text Notes 9050 5500 1    50   ~ 0
 1%
 Wire Wire Line
-	9150 5550 9150 5800
-Wire Wire Line
-	9150 5800 8800 5800
-Connection ~ 8800 5800
-Wire Wire Line
-	9150 5250 9150 5200
-Wire Wire Line
-	9150 4850 9150 4550
-Wire Wire Line
-	9150 4550 8800 4550
-Connection ~ 8800 4550
-Wire Wire Line
-	9150 4550 9150 4300
-Connection ~ 9150 4550
+	8800 5550 8800 5800
 Wire Wire Line
 	6150 5100 6250 5100
 Wire Wire Line
@@ -792,11 +757,6 @@ Wire Wire Line
 	6250 5600 7300 5600
 Wire Wire Line
 	7300 5600 7300 5200
-Wire Wire Line
-	7300 5200 9150 5200
-Connection ~ 9150 5200
-Wire Wire Line
-	9150 5200 9150 5150
 NoConn ~ 6150 5000
 Wire Wire Line
 	6150 4800 7000 4800
@@ -826,18 +786,11 @@ F 3 "~" H 9950 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9150 4550 9400 4550
-Wire Wire Line
 	9700 4550 9800 4550
 Wire Wire Line
 	10100 4550 10350 4550
 Wire Wire Line
 	10350 4550 10350 4300
-Wire Wire Line
-	1800 4550 2400 4550
-Connection ~ 2400 4550
-Wire Wire Line
-	2400 4550 2750 4550
 Wire Wire Line
 	6600 5800 5750 5800
 Wire Wire Line
@@ -976,4 +929,93 @@ F 3 "" H 1750 950 50  0001 C CNN
 	1    1750 950 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7600 4450 7600 4550
+Wire Wire Line
+	7000 5800 8200 5800
+Connection ~ 7000 5800
+Connection ~ 8200 5800
+Wire Wire Line
+	7700 4550 7600 4550
+Connection ~ 7600 4550
+Wire Wire Line
+	7600 4550 7600 4700
+$Comp
+L Device:C C?
+U 1 1 5D8E4A98
+P 9100 4700
+F 0 "C?" H 9215 4746 50  0000 L CNN
+F 1 "5p" H 9215 4655 50  0000 L CNN
+F 2 "" H 9138 4550 50  0001 C CNN
+F 3 "~" H 9100 4700 50  0001 C CNN
+	1    9100 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 5150 8800 5200
+Wire Wire Line
+	9400 4550 9100 4550
+Wire Wire Line
+	9100 4550 8800 4550
+Connection ~ 9100 4550
+Connection ~ 8500 4550
+Wire Wire Line
+	8800 4850 8800 4550
+Connection ~ 8800 4550
+Wire Wire Line
+	8800 4550 8500 4550
+Wire Wire Line
+	8800 5200 9100 5200
+Wire Wire Line
+	9100 5200 9100 4850
+Connection ~ 8800 5200
+Wire Wire Line
+	8800 5200 8800 5250
+Wire Wire Line
+	8800 5200 7300 5200
+Wire Wire Line
+	8500 5800 8800 5800
+Connection ~ 8500 5800
+Wire Wire Line
+	9100 4550 9100 4300
+$Comp
+L Device:C C?
+U 1 1 5D943CC4
+P 2150 4700
+F 0 "C?" H 2265 4746 50  0000 L CNN
+F 1 "5p" H 2265 4655 50  0000 L CNN
+F 2 "" H 2188 4550 50  0001 C CNN
+F 3 "~" H 2150 4700 50  0001 C CNN
+	1    2150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5150 2450 5200
+Connection ~ 2450 5200
+Wire Wire Line
+	2450 5200 2450 5250
+Wire Wire Line
+	2450 5200 2150 5200
+Wire Wire Line
+	2150 5200 2150 4850
+Wire Wire Line
+	2750 5800 2450 5800
+Connection ~ 2750 5800
+Wire Wire Line
+	2750 4550 2450 4550
+Connection ~ 2750 4550
+Wire Wire Line
+	2450 4550 2150 4550
+Connection ~ 2450 4550
+Wire Wire Line
+	2150 4550 1800 4550
+Connection ~ 2150 4550
+Text Notes 1500 3950 0    50   ~ 0
+stable
+Wire Wire Line
+	4200 5100 4200 5200
+Wire Wire Line
+	4200 5200 2450 5200
+Wire Wire Line
+	4200 5100 5350 5100
 $EndSCHEMATC
