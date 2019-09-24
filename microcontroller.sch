@@ -1083,4 +1083,36 @@ Wire Wire Line
 Wire Wire Line
 	2250 550  1700 550 
 Connection ~ 1700 550 
+Text HLabel 3950 3100 0    50   Input ~ 0
+USART2_TX
+Text HLabel 3950 3200 0    50   Input ~ 0
+USART2_RX
+Text HLabel 3950 3300 0    50   Input ~ 0
+USART2_CLK
+Text HLabel 3950 3400 0    50   Input ~ 0
+USART2_CS
+Wire Wire Line
+	3950 3100 4150 3100
+Wire Wire Line
+	4150 3100 4150 3050
+Wire Wire Line
+	4150 3050 4450 3050
+Wire Wire Line
+	3950 3200 4150 3200
+Wire Wire Line
+	4150 3200 4150 3150
+Wire Wire Line
+	4150 3150 4450 3150
+Wire Wire Line
+	3950 3300 4150 3300
+Wire Wire Line
+	4150 3300 4150 3250
+Wire Wire Line
+	4150 3250 4450 3250
+Wire Wire Line
+	3950 3400 4150 3400
+Wire Wire Line
+	4150 3400 4150 3350
+Wire Wire Line
+	4150 3350 4450 3350
 $EndSCHEMATC
