@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Local)(type KiCad)(uri ${KIPRJMOD}/footprints/)(options "")(descr ""))
+  (lib (name VLS5045EX-4R7M)(type Legacy)(uri ${KIPRJMOD}/footprints/legacy/VLS5045EX-4R7M.mod)(options "")(descr ""))
 )
