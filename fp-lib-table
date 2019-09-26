@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/library/footprints.pretty)(options "")(descr ""))
+  (lib (name PCM3003)(type KiCad)(uri /home/jonas/Projects/Effect-Box-PCB/library/pcm3003.pretty)(options "")(descr ""))
 )

@@ -2,4 +2,6 @@
   (lib (name Effect-Box-rescue)(type Legacy)(uri ${KIPRJMOD}/Effect-Box-rescue.lib)(options "")(descr ""))
   (lib (name sit-oscillator)(type Legacy)(uri ${KIPRJMOD}/library/sit-oscillator.lib)(options "")(descr ""))
   (lib (name pcm3003)(type Legacy)(uri ${KIPRJMOD}/library/pcm3003.lib)(options "")(descr ""))
+  (lib (name ina1651)(type Legacy)(uri ${KIPRJMOD}/library/ina1651.lib)(options "")(descr ""))
+  (lib (name drv632)(type Legacy)(uri ${KIPRJMOD}/library/drv632.lib)(options "")(descr ""))
 )
