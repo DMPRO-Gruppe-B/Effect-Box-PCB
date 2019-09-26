@@ -48,4 +48,5 @@ Wire Wire Line
 	6000 2300 3700 2300
 Wire Wire Line
 	6000 2500 3700 2500
+NoConn ~ 1850 1350
 $EndSCHEMATC
