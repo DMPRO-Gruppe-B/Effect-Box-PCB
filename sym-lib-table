@@ -8,4 +8,8 @@
   (lib (name pin_header)(type Legacy)(uri ${KIPRJMOD}/symbols/pin_header.lib)(options "")(descr ""))
   (lib (name lm7805)(type Legacy)(uri ${KIPRJMOD}/symbols/lm7805.lib)(options "")(descr ""))
   (lib (name PJ-006A-SMT)(type Legacy)(uri ${KIPRJMOD}/symbols/PJ-006A-SMT.lib)(options "")(descr ""))
+  (lib (name pcm3003)(type Legacy)(uri ${KIPRJMOD}/symbols/pcm3003.lib)(options "")(descr ""))
+  (lib (name ina1651)(type Legacy)(uri ${KIPRJMOD}/symbols/ina1651.lib)(options "")(descr ""))
+  (lib (name drv632)(type Legacy)(uri ${KIPRJMOD}/symbols/drv632.lib)(options "")(descr ""))
+  (lib (name button)(type Legacy)(uri ${KIPRJMOD}/library/button.lib)(options "")(descr ""))
 )

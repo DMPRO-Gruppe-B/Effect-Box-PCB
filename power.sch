@@ -525,6 +525,8 @@ F 3 "~" H 3600 5050 50  0001 C CNN
 	1    3600 5050
 	1    0    0    -1  
 $EndComp
+Text Notes 3000 4400 0    50   ~ 0
+I_p>2.8A, I_rms>2.1A
 $Comp
 L Device:C C2
 U 1 1 5D8B7A73
@@ -611,19 +613,6 @@ $EndComp
 Wire Wire Line
 	3950 2350 3950 3250
 Wire Wire Line
-	3950 2050 4350 2050
-$Comp
-L Device:C C3
-U 1 1 5D868341
-P 3950 2200
-F 0 "C3" H 4065 2246 50  0000 L CNN
-F 1 "10u" H 4065 2155 50  0000 L CNN
-F 2 "" H 3988 2050 50  0001 C CNN
-F 3 "~" H 3950 2200 50  0001 C CNN
-	1    3950 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4350 2350 4350 3250
 Connection ~ 4350 2050
 Wire Wire Line
@@ -659,17 +648,6 @@ Wire Wire Line
 	5800 2250 6450 2250
 Wire Wire Line
 	5800 2250 5800 2650
-$Comp
-L Device:C C9
-U 1 1 5D853940
-P 5800 2950
-F 0 "C9" H 5600 3000 50  0000 L CNN
-F 1 "1u" H 5600 2900 50  0000 L CNN
-F 2 "" H 5838 2800 50  0001 C CNN
-F 3 "~" H 5800 2950 50  0001 C CNN
-	1    5800 2950
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R5
 U 1 1 5D8528E1
@@ -778,17 +756,6 @@ $EndComp
 Wire Wire Line
 	9350 2050 9600 2050
 Connection ~ 9350 2050
-$Comp
-L Device:C C17
-U 1 1 5D83C21B
-P 9350 2200
-F 0 "C17" H 9465 2246 50  0000 L CNN
-F 1 "22u" H 9465 2155 50  0000 L CNN
-F 2 "" H 9388 2050 50  0001 C CNN
-F 3 "~" H 9350 2200 50  0001 C CNN
-	1    9350 2200
-	1    0    0    -1  
-$EndComp
 Connection ~ 7350 2350
 Wire Wire Line
 	8250 2350 8250 2050
@@ -1098,9 +1065,6 @@ F 3 "" H 950 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 2050 3950 2050
-Connection ~ 3950 2050
-Wire Wire Line
 	3500 3900 5650 3900
 Connection ~ 5650 3900
 Text GLabel 3500 2050 0    50   Input ~ 0
@@ -1255,4 +1219,42 @@ Wire Wire Line
 Connection ~ 4600 7400
 Wire Wire Line
 	4600 7400 3550 7400
+Wire Wire Line
+	3500 2050 3950 2050
+$Comp
+L Device:C C?
+U 1 1 614FB6E6
+P 3950 2200
+F 0 "C?" H 4065 2246 50  0000 L CNN
+F 1 "10u" H 4065 2155 50  0000 L CNN
+F 2 "" H 3988 2050 50  0001 C CNN
+F 3 "~" H 3950 2200 50  0001 C CNN
+	1    3950 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 2050
+Wire Wire Line
+	3950 2050 4350 2050
+$Comp
+L Device:C C?
+U 1 1 614FC3FF
+P 5800 2950
+F 0 "C?" H 5915 2996 50  0000 L CNN
+F 1 "1u" H 5915 2905 50  0000 L CNN
+F 2 "" H 5838 2800 50  0001 C CNN
+F 3 "~" H 5800 2950 50  0001 C CNN
+	1    5800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6153845C
+P 9350 2200
+F 0 "C?" H 9465 2246 50  0000 L CNN
+F 1 "22u" H 9465 2155 50  0000 L CNN
+F 2 "" H 9388 2050 50  0001 C CNN
+F 3 "~" H 9350 2200 50  0001 C CNN
+	1    9350 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
