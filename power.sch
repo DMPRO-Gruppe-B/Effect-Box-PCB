@@ -1176,4 +1176,83 @@ F 9 "https://www.cui.com/product/interconnect/connectors/dc-power-connectors/jac
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1300 2450
+$Comp
+L Device:C C?
+U 1 1 5D917080
+P 2300 7050
+F 0 "C?" H 2100 7100 50  0000 L CNN
+F 1 "220n" H 2050 7000 50  0000 L CNN
+F 2 "" H 2338 6900 50  0001 C CNN
+F 3 "~" H 2300 7050 50  0001 C CNN
+	1    2300 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D91829A
+P 4900 7150
+F 0 "C?" H 5050 7200 50  0000 L CNN
+F 1 "100n" H 5050 7100 50  0000 L CNN
+F 2 "" H 4938 7000 50  0001 C CNN
+F 3 "~" H 4900 7150 50  0001 C CNN
+	1    4900 7150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 6900 0    50   Input ~ 0
+PWR_IN
+$Comp
+L power:GND #PWR?
+U 1 1 5D918F8E
+P 3550 7400
+F 0 "#PWR?" H 3550 7150 50  0001 C CNN
+F 1 "GND" H 3555 7227 50  0000 C CNN
+F 2 "" H 3550 7400 50  0001 C CNN
+F 3 "" H 3550 7400 50  0001 C CNN
+	1    3550 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 7400 4600 7400
+Wire Wire Line
+	2700 7000 2700 7400
+Wire Wire Line
+	2700 7400 3550 7400
+Connection ~ 3550 7400
+Wire Wire Line
+	2300 7200 2300 7400
+Wire Wire Line
+	2300 7400 2700 7400
+Connection ~ 2700 7400
+Wire Wire Line
+	1750 6900 2300 6900
+Connection ~ 2300 6900
+Wire Wire Line
+	2300 6900 2700 6900
+$Comp
+L power:+5VA #PWR?
+U 1 1 5D94A231
+P 5500 6900
+F 0 "#PWR?" H 5500 6750 50  0001 C CNN
+F 1 "+5VA" H 5515 7073 50  0000 C CNN
+F 2 "" H 5500 6900 50  0001 C CNN
+F 3 "" H 5500 6900 50  0001 C CNN
+	1    5500 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 7400 4900 7300
+Wire Wire Line
+	4500 7000 4900 7000
+Wire Wire Line
+	4900 7000 5500 7000
+Wire Wire Line
+	5500 7000 5500 6900
+Connection ~ 4900 7000
+Wire Wire Line
+	4500 6900 4600 6900
+Wire Wire Line
+	4600 6900 4600 7400
+Connection ~ 4600 7400
+Wire Wire Line
+	4600 7400 3550 7400
 $EndSCHEMATC
