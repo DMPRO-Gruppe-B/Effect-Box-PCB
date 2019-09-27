@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 4 5
 Title "Power supply unit"
 Date ""
 Rev ""
@@ -941,10 +941,10 @@ Connection ~ 7600 4550
 Wire Wire Line
 	7600 4550 7600 4700
 $Comp
-L Device:C C?
+L Device:C C62
 U 1 1 5D8E4A98
 P 9100 4700
-F 0 "C?" H 9215 4746 50  0000 L CNN
+F 0 "C62" H 9215 4746 50  0000 L CNN
 F 1 "5p" H 9215 4655 50  0000 L CNN
 F 2 "" H 9138 4550 50  0001 C CNN
 F 3 "~" H 9100 4700 50  0001 C CNN
@@ -979,10 +979,10 @@ Connection ~ 8500 5800
 Wire Wire Line
 	9100 4550 9100 4300
 $Comp
-L Device:C C?
+L Device:C C61
 U 1 1 5D943CC4
 P 2150 4700
-F 0 "C?" H 2265 4746 50  0000 L CNN
+F 0 "C61" H 2265 4746 50  0000 L CNN
 F 1 "5p" H 2265 4655 50  0000 L CNN
 F 2 "" H 2188 4550 50  0001 C CNN
 F 3 "~" H 2150 4700 50  0001 C CNN
