@@ -6,4 +6,5 @@
   (lib (name flash_memory)(type Legacy)(uri ${KIPRJMOD}/symbols/flash_memory.lib)(options "")(descr ""))
   (lib (name LCD)(type Legacy)(uri ${KIPRJMOD}/symbols/lcd-components.lib)(options "")(descr ""))
   (lib (name pin_header)(type Legacy)(uri ${KIPRJMOD}/symbols/pin_header.lib)(options "")(descr ""))
+  (lib (name lm7805)(type Legacy)(uri ${KIPRJMOD}/symbols/lm7805.lib)(options "")(descr ""))
 )
