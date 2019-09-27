@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 8
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -44,17 +44,6 @@ Wire Wire Line
 	11450 3300 11300 3300
 Connection ~ 11300 3300
 $Comp
-L Device:C_Small C?
-U 1 1 5D8A5F6F
-P 7150 3300
-F 0 "C?" V 6921 3300 50  0000 C CNN
-F 1 "0.1u" V 7012 3300 50  0000 C CNN
-F 2 "" H 7150 3300 50  0001 C CNN
-F 3 "~" H 7150 3300 50  0001 C CNN
-	1    7150 3300
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+3.3VA #PWR0141
 U 1 1 5D8D6997
 P 10650 2250
@@ -81,8 +70,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 4000 8400 3900
 Connection ~ 8400 3900
-Wire Wire Line
-	11650 3300 11750 3300
 Wire Wire Line
 	7600 3800 8500 3800
 $Comp
@@ -161,8 +148,6 @@ Connection ~ 12000 3500
 Wire Wire Line
 	12000 3500 12000 3600
 Wire Wire Line
-	11100 3600 11300 3600
-Wire Wire Line
 	11500 3600 12000 3600
 Wire Wire Line
 	11300 4200 11300 5000
@@ -200,20 +185,18 @@ F 3 "~" H 11400 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7550 3300 8300 3300
+	7300 3300 7550 3300
 $Comp
 L Device:CP1_Small C?
 U 1 1 5D8A6788
-P 7450 3300
-F 0 "C?" V 7222 3300 50  0000 C CNN
-F 1 "10u" V 7313 3300 50  0000 C CNN
-F 2 "" H 7450 3300 50  0001 C CNN
-F 3 "~" H 7450 3300 50  0001 C CNN
-	1    7450 3300
+P 7200 3300
+F 0 "C?" V 6972 3300 50  0000 C CNN
+F 1 "10u" V 7063 3300 50  0000 C CNN
+F 2 "" H 7200 3300 50  0001 C CNN
+F 3 "~" H 7200 3300 50  0001 C CNN
+	1    7200 3300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7350 3300 7250 3300
 $Comp
 L power:GND #PWR0143
 U 1 1 5D924964
@@ -226,11 +209,7 @@ F 3 "" H 7050 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 3300 7050 3450
-Wire Wire Line
 	7850 3350 7850 3450
-Wire Wire Line
-	7050 3450 7850 3450
 Connection ~ 7050 3450
 Wire Wire Line
 	7050 3450 7050 3500
@@ -250,7 +229,7 @@ Wire Wire Line
 	11700 4600 11950 4600
 Connection ~ 11700 4600
 Wire Wire Line
-	11400 4600 11700 4600
+	11400 4600 11650 4600
 Wire Wire Line
 	11400 4000 11400 4600
 $Comp
@@ -303,13 +282,11 @@ F 3 "~" H 11550 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	11650 4450 11750 4450
-Wire Wire Line
 	11450 4450 11450 4300
 Wire Wire Line
 	11100 4300 11450 4300
 Wire Wire Line
-	11450 4300 12150 4300
+	11450 4300 11750 4300
 Connection ~ 11450 4300
 Wire Wire Line
 	11950 4450 11950 4600
@@ -356,9 +333,9 @@ Wire Wire Line
 Wire Wire Line
 	10650 2250 10650 2500
 Wire Wire Line
-	12000 3300 12350 3300
+	12000 3300 12100 3300
 Wire Wire Line
-	11300 2500 12150 2500
+	11300 2500 11750 2500
 Text GLabel 10350 5000 0    50   Input ~ 0
 FPGAOut
 Wire Wire Line
@@ -534,22 +511,10 @@ Wire Wire Line
 Wire Wire Line
 	6600 3100 5000 3100
 Connection ~ 6600 3700
-$Comp
-L Connector:AudioJack3_Ground J?
-U 1 1 5DB8BF0E
-P 3100 3900
-F 0 "J?" H 2821 3776 50  0000 R CNN
-F 1 "AudioJack3_Ground" H 2821 3867 50  0000 R CNN
-F 2 "" H 3100 3900 50  0001 C CNN
-F 3 "~" H 3100 3900 50  0001 C CNN
-	1    3100 3900
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	3300 4000 3300 4200
 Wire Wire Line
 	3300 4200 3450 4200
-Connection ~ 3300 4200
 Connection ~ 3450 4200
 Wire Wire Line
 	3300 3900 3750 3900
@@ -558,39 +523,111 @@ Wire Wire Line
 Connection ~ 3750 3900
 Wire Wire Line
 	3750 3900 4000 3900
-Wire Wire Line
-	2650 4200 2650 3600
-Wire Wire Line
-	2650 3600 3100 3600
-Wire Wire Line
-	2650 4200 3300 4200
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 5DC0ED03
-P 13500 3550
-F 0 "J?" H 13320 3625 50  0000 R CNN
-F 1 "AudioJack2" H 13320 3534 50  0000 R CNN
-F 2 "" H 13500 3550 50  0001 C CNN
-F 3 "~" H 13500 3550 50  0001 C CNN
-	1    13500 3550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack2 J?
-U 1 1 5DC10832
-P 13500 3950
-F 0 "J?" H 13320 4025 50  0000 R CNN
-F 1 "AudioJack2" H 13320 3934 50  0000 R CNN
-F 2 "" H 13500 3950 50  0001 C CNN
-F 3 "~" H 13500 3950 50  0001 C CNN
-	1    13500 3950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	12900 3550 13300 3550
-Wire Wire Line
-	12900 3950 13300 3950
 Connection ~ 6600 3800
+$Comp
+L Connector:AudioJack3 J?
+U 1 1 5D92FF52
+P 13450 3750
+F 0 "J?" H 13170 3683 50  0000 R CNN
+F 1 "AudioJack3" H 13170 3774 50  0000 R CNN
+F 2 "" H 13450 3750 50  0001 C CNN
+F 3 "~" H 13450 3750 50  0001 C CNN
+	1    13450 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12900 3550 13000 3550
+Wire Wire Line
+	13000 3550 13000 3750
+Wire Wire Line
+	13000 3750 13250 3750
+Wire Wire Line
+	12900 3950 13100 3950
+Wire Wire Line
+	13100 3950 13100 3650
+Wire Wire Line
+	13100 3650 13250 3650
+Wire Wire Line
+	13250 3850 13250 4600
+Wire Wire Line
+	13250 4600 11950 4600
+Connection ~ 11950 4600
+$Comp
+L Connector:AudioJack3 J?
+U 1 1 5D973AB4
+P 3100 3900
+F 0 "J?" H 2821 3833 50  0000 R CNN
+F 1 "AudioJack3" H 2821 3924 50  0000 R CNN
+F 2 "" H 3100 3900 50  0001 C CNN
+F 3 "~" H 3100 3900 50  0001 C CNN
+	1    3100 3900
+	1    0    0    1   
+$EndComp
+NoConn ~ 11100 4100
+Wire Wire Line
+	11650 4450 11650 4600
+Connection ~ 11650 4600
+Wire Wire Line
+	11650 4600 11700 4600
+Wire Wire Line
+	11750 4450 11750 4300
+Connection ~ 11750 4300
+Wire Wire Line
+	11750 4300 12150 4300
+Wire Wire Line
+	11650 3300 11650 3050
+Wire Wire Line
+	11650 3050 12100 3050
+Wire Wire Line
+	12100 3050 12100 3300
+Connection ~ 12100 3300
+Wire Wire Line
+	12100 3300 12350 3300
+Wire Wire Line
+	11750 3300 11750 2500
+Connection ~ 11750 2500
+Wire Wire Line
+	11750 2500 12150 2500
+Wire Wire Line
+	7050 3450 7850 3450
+Wire Wire Line
+	11100 3600 11250 3600
+Wire Wire Line
+	8500 3500 8150 3500
+Wire Wire Line
+	8150 3500 8150 2850
+Wire Wire Line
+	8150 2850 11250 2850
+Wire Wire Line
+	11250 2850 11250 3600
+Connection ~ 11250 3600
+Wire Wire Line
+	11250 3600 11300 3600
+Wire Wire Line
+	7100 3300 7050 3300
+Connection ~ 7050 3300
+Wire Wire Line
+	7050 3300 7050 3450
+Wire Wire Line
+	7550 3100 7550 3300
+Connection ~ 7550 3300
+Wire Wire Line
+	7550 3300 8300 3300
+Wire Wire Line
+	7050 3100 7050 3300
+Wire Wire Line
+	7250 3100 7550 3100
+$Comp
+L Device:C_Small C?
+U 1 1 5D8A5F6F
+P 7150 3100
+F 0 "C?" V 6921 3100 50  0000 C CNN
+F 1 "0.1u" V 7012 3100 50  0000 C CNN
+F 2 "" H 7150 3100 50  0001 C CNN
+F 3 "~" H 7150 3100 50  0001 C CNN
+	1    7150 3100
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	6600 3800 7400 3800
 $EndSCHEMATC

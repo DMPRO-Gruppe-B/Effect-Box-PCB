@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -433,5 +433,11 @@ S 4300 4650 1300 600
 U 5DCB4A40
 F0 "audio_common" 50
 F1 "audio_common.sch" 50
+$EndSheet
+$Sheet
+S 6400 4900 2450 800 
+U 5D90AE9B
+F0 "audio_opamp" 50
+F1 "audio_opamp.sch" 50
 $EndSheet
 $EndSCHEMATC
