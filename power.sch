@@ -576,8 +576,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 4550 6750 4550
 Wire Wire Line
-	2650 2050 3000 2050
-Wire Wire Line
 	5750 4550 5950 4550
 Wire Wire Line
 	8800 1500 4400 1500
@@ -610,11 +608,6 @@ Connection ~ 4400 3250
 Connection ~ 3800 3250
 Wire Wire Line
 	3800 3250 4400 3250
-Connection ~ 3400 3250
-Wire Wire Line
-	3000 3250 3000 2350
-Wire Wire Line
-	3000 3250 3400 3250
 $Comp
 L Device:C C5
 U 1 1 5D8643FA
@@ -627,24 +620,10 @@ F 3 "~" H 3800 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 2050 3400 2050
-Wire Wire Line
 	3400 2350 3400 3250
 Wire Wire Line
 	3400 2050 3800 2050
 Connection ~ 3400 2050
-Connection ~ 3000 2050
-$Comp
-L Device:CP1 C1
-U 1 1 5D868CF6
-P 3000 2200
-F 0 "C1" H 3115 2246 50  0000 L CNN
-F 1 "100u" H 3115 2155 50  0000 L CNN
-F 2 "" H 3000 2200 50  0001 C CNN
-F 3 "~" H 3000 2200 50  0001 C CNN
-	1    3000 2200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C3
 U 1 1 5D868341
@@ -1250,12 +1229,12 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5DC2D89B
-P 2750 6800
-F 0 "#PWR?" H 2750 6650 50  0001 C CNN
-F 1 "+5V" H 2765 6973 50  0000 C CNN
-F 2 "" H 2750 6800 50  0001 C CNN
-F 3 "" H 2750 6800 50  0001 C CNN
-	1    2750 6800
+P 3000 6800
+F 0 "#PWR?" H 3000 6650 50  0001 C CNN
+F 1 "+5V" H 3015 6973 50  0000 C CNN
+F 2 "" H 3000 6800 50  0001 C CNN
+F 3 "" H 3000 6800 50  0001 C CNN
+	1    3000 6800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1291,36 +1270,13 @@ F 3 "" H 2650 3900 50  0001 C CNN
 	1    2650 3900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5100 3900 2650 3900
 Connection ~ 5100 3900
-$Comp
-L Device:CP1 C?
-U 1 1 5D926E21
-P 3100 6950
-F 0 "C?" H 3215 6996 50  0000 L CNN
-F 1 "100u" H 3215 6905 50  0000 L CNN
-F 2 "" H 3100 6950 50  0001 C CNN
-F 3 "~" H 3100 6950 50  0001 C CNN
-	1    3100 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 6800 3100 6800
-Wire Wire Line
-	3100 6800 3400 6800
-Connection ~ 3100 6800
 Wire Wire Line
 	4350 6800 4000 6800
-$Comp
-L power:GND #PWR?
-U 1 1 5D968808
-P 3100 7100
-F 0 "#PWR?" H 3100 6850 50  0001 C CNN
-F 1 "GND" H 3105 6927 50  0000 C CNN
-F 2 "" H 3100 7100 50  0001 C CNN
-F 3 "" H 3100 7100 50  0001 C CNN
-	1    3100 7100
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	2650 3900 5100 3900
+Wire Wire Line
+	2650 2050 3400 2050
+Wire Wire Line
+	3400 6800 3000 6800
 $EndSCHEMATC
