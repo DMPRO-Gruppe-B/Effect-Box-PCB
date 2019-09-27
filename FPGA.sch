@@ -869,7 +869,7 @@ U 1 1 5E17B373
 P 5300 4550
 F 0 "U5" H 5183 4625 50  0000 C CNN
 F 1 "SiT2024B" H 5183 4534 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5100 4500 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5100 4500 50  0001 C CNN
 F 3 "" H 5100 4500 50  0001 C CNN
 	1    5300 4550
 	1    0    0    1   
@@ -1126,37 +1126,37 @@ F 3 "" H 14650 4200 50  0000 C CNN
 	2    14650 4200
 	1    0    0    -1  
 $EndComp
-Text Label 19250 3400 2    50   ~ 0
+Text Label 18300 4000 2    50   ~ 0
 SRAM_dio0
-Text Label 19250 3300 2    50   ~ 0
+Text Label 18300 3900 2    50   ~ 0
 SRAM_dio1
-Text Label 19250 3200 2    50   ~ 0
+Text Label 18300 3800 2    50   ~ 0
 SRAM_dio2
-Text Label 19250 3100 2    50   ~ 0
+Text Label 18300 3700 2    50   ~ 0
 SRAM_dio3
-Text Label 19250 3000 2    50   ~ 0
+Text Label 18300 3600 2    50   ~ 0
 SRAM_dio4
-Text Label 19250 2900 2    50   ~ 0
+Text Label 18300 3500 2    50   ~ 0
 SRAM_dio5
-Text Label 19250 2800 2    50   ~ 0
+Text Label 18300 3400 2    50   ~ 0
 SRAM_dio6
-Text Label 19250 2700 2    50   ~ 0
+Text Label 18300 3300 2    50   ~ 0
 SRAM_dio7
-Text Label 19250 2600 2    50   ~ 0
+Text Label 18300 3200 2    50   ~ 0
 SRAM_dio8
-Text Label 19250 2500 2    50   ~ 0
+Text Label 18300 3100 2    50   ~ 0
 SRAM_dio9
-Text Label 19250 2400 2    50   ~ 0
+Text Label 18300 3000 2    50   ~ 0
 SRAM_dio10
-Text Label 19250 2300 2    50   ~ 0
+Text Label 18300 2900 2    50   ~ 0
 SRAM_dio11
-Text Label 19250 2200 2    50   ~ 0
+Text Label 18300 2800 2    50   ~ 0
 SRAM_dio12
-Text Label 19250 2100 2    50   ~ 0
+Text Label 18300 2700 2    50   ~ 0
 SRAM_dio13
-Text Label 19250 2000 2    50   ~ 0
+Text Label 18300 2600 2    50   ~ 0
 SRAM_dio14
-Text Label 19250 1900 2    50   ~ 0
+Text Label 18300 2500 2    50   ~ 0
 SRAM_dio15
 Text Label 16650 2100 0    50   ~ 0
 SRAM_dio0
@@ -1190,45 +1190,45 @@ Text Label 16650 3500 0    50   ~ 0
 SRAM_dio14
 Text Label 16650 3600 0    50   ~ 0
 SRAM_dio15
-Text Label 20450 3800 0    50   ~ 0
+Text Label 19500 4400 0    50   ~ 0
 SRAM_a0
-Text Label 20450 3700 0    50   ~ 0
+Text Label 19500 4300 0    50   ~ 0
 SRAM_a1
-Text Label 20450 3600 0    50   ~ 0
+Text Label 19500 4200 0    50   ~ 0
 SRAM_a2
-Text Label 20450 3500 0    50   ~ 0
+Text Label 19500 4100 0    50   ~ 0
 SRAM_a3
-Text Label 20450 3400 0    50   ~ 0
+Text Label 19500 4000 0    50   ~ 0
 SRAM_a4
-Text Label 20450 3300 0    50   ~ 0
+Text Label 19500 3900 0    50   ~ 0
 SRAM_a5
-Text Label 20450 3200 0    50   ~ 0
+Text Label 19500 3800 0    50   ~ 0
 SRAM_a6
-Text Label 20450 3100 0    50   ~ 0
+Text Label 19500 3700 0    50   ~ 0
 SRAM_a7
-Text Label 20450 3000 0    50   ~ 0
+Text Label 19500 3600 0    50   ~ 0
 SRAM_a8
-Text Label 20450 2900 0    50   ~ 0
+Text Label 19500 3500 0    50   ~ 0
 SRAM_a9
-Text Label 20450 2800 0    50   ~ 0
+Text Label 19500 3400 0    50   ~ 0
 SRAM_a10
-Text Label 20450 2700 0    50   ~ 0
+Text Label 19500 3300 0    50   ~ 0
 SRAM_a11
-Text Label 20450 2600 0    50   ~ 0
+Text Label 19500 3200 0    50   ~ 0
 SRAM_a12
-Text Label 20450 2500 0    50   ~ 0
+Text Label 19500 3100 0    50   ~ 0
 SRAM_a13
-Text Label 20450 2400 0    50   ~ 0
+Text Label 19500 3000 0    50   ~ 0
 SRAM_a14
-Text Label 20450 2300 0    50   ~ 0
+Text Label 19500 2900 0    50   ~ 0
 SRAM_a15
-Text Label 20450 2200 0    50   ~ 0
+Text Label 19500 2800 0    50   ~ 0
 SRAM_a16
-Text Label 20450 2100 0    50   ~ 0
+Text Label 19500 2700 0    50   ~ 0
 SRAM_a17
-Text Label 20450 2000 0    50   ~ 0
+Text Label 19500 2600 0    50   ~ 0
 SRAM_a18
-Text Label 20450 1900 0    50   ~ 0
+Text Label 19500 2500 0    50   ~ 0
 SRAM_a19
 Text Label 16650 3700 0    50   ~ 0
 SRAM_a0
@@ -1273,27 +1273,27 @@ SRAM_a19
 $Comp
 L Memory_RAM:AS6C1616 U?
 U 1 1 5E505DC8
-P 19850 3000
+P 18900 3600
 AR Path="/5D7D43D9/5E0EF1ED/5E505DC8" Ref="U?"  Part="1" 
 AR Path="/5D7D43D9/5E505DC8" Ref="U6"  Part="1" 
-F 0 "U6" H 19600 4300 50  0000 C CNN
-F 1 "AS6C1616" H 20150 1700 50  0000 C CNN
-F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 20900 1650 50  0001 C CNN
-F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf" H 19550 3450 50  0001 C CNN
-	1    19850 3000
+F 0 "U6" H 18650 4900 50  0000 C CNN
+F 1 "AS6C1616" H 19200 2300 50  0000 C CNN
+F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 19950 2250 50  0001 C CNN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf" H 18600 4050 50  0001 C CNN
+	1    18900 3600
 	1    0    0    -1  
 $EndComp
-Text Label 19250 3600 2    50   ~ 0
+Text Label 18300 4200 2    50   ~ 0
 SRAM_oe#
-Text Label 19250 3700 2    50   ~ 0
+Text Label 18300 4300 2    50   ~ 0
 SRAM_we#
-Text Label 19250 3800 2    50   ~ 0
+Text Label 18300 4400 2    50   ~ 0
 SRAM_ce#
-Text Label 19250 3900 2    50   ~ 0
+Text Label 18300 4500 2    50   ~ 0
 SRAM_ce2
-Text Label 19250 4000 2    50   ~ 0
+Text Label 18300 4600 2    50   ~ 0
 SRAM_ub#
-Text Label 19250 4100 2    50   ~ 0
+Text Label 18300 4700 2    50   ~ 0
 SRAM_lb#
 Text Label 16650 5700 0    50   ~ 0
 SRAM_oe#
@@ -1308,27 +1308,27 @@ SRAM_ub#
 Text Label 16650 6200 0    50   ~ 0
 SRAM_lb#
 Wire Wire Line
-	19850 1400 19850 1600
+	18900 2000 18900 2100
 $Comp
 L power:GND #PWR?
 U 1 1 5E505DDB
-P 19450 4450
+P 18500 5050
 AR Path="/5D7D43D9/5E0EF1ED/5E505DDB" Ref="#PWR?"  Part="1" 
 AR Path="/5D7D43D9/5E505DDB" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 19450 4200 50  0001 C CNN
-F 1 "GND" H 19455 4277 50  0000 C CNN
-F 2 "" H 19450 4450 50  0001 C CNN
-F 3 "" H 19450 4450 50  0001 C CNN
-	1    19450 4450
+F 0 "#PWR0126" H 18500 4800 50  0001 C CNN
+F 1 "GND" H 18505 4877 50  0000 C CNN
+F 2 "" H 18500 5050 50  0001 C CNN
+F 3 "" H 18500 5050 50  0001 C CNN
+	1    18500 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	19850 4400 19750 4400
+	18900 5000 18800 5000
 Wire Wire Line
-	19450 4400 19450 4450
-Connection ~ 19750 4400
+	18500 5000 18500 5050
+Connection ~ 18800 5000
 Wire Wire Line
-	19750 4400 19450 4400
+	18800 5000 18500 5000
 NoConn ~ 16650 6300
 NoConn ~ 16650 6400
 NoConn ~ 16650 6500
@@ -1340,14 +1340,14 @@ NoConn ~ 16650 7000
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E505DED
-P 19850 1400
+P 18900 2000
 AR Path="/5D7D43D9/5E0EF1ED/5E505DED" Ref="#PWR?"  Part="1" 
 AR Path="/5D7D43D9/5E505DED" Ref="#PWR0127"  Part="1" 
-F 0 "#PWR0127" H 19850 1250 50  0001 C CNN
-F 1 "+3V3" H 19865 1573 50  0000 C CNN
-F 2 "" H 19850 1400 50  0001 C CNN
-F 3 "" H 19850 1400 50  0001 C CNN
-	1    19850 1400
+F 0 "#PWR0127" H 18900 1850 50  0001 C CNN
+F 1 "+3V3" H 18915 2173 50  0000 C CNN
+F 2 "" H 18900 2000 50  0001 C CNN
+F 3 "" H 18900 2000 50  0001 C CNN
+	1    18900 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1631,13 +1631,9 @@ Wire Wire Line
 	-1600 1850 -1500 1850
 Connection ~ -1500 1050
 Connection ~ -1500 1850
-Text GLabel -2600 1600 3    50   Input ~ 0
-done
 Wire Wire Line
 	-2600 1250 -2600 1600
 Connection ~ -2600 1250
-Text GLabel -3200 1600 3    50   Input ~ 0
-program_b
 Wire Wire Line
 	-3200 1600 -3200 1450
 Connection ~ -3200 1450
@@ -2117,4 +2113,37 @@ Text Label 6350 2300 0    50   ~ 0
 SampleClock
 Text HLabel 6700 3400 0    50   Input ~ 0
 MISO
+Text HLabel -3200 1600 3    50   Input ~ 0
+PROGRAM_B
+Text HLabel -2600 1600 3    50   Input ~ 0
+DONE
+$Comp
+L Device:C C?
+U 1 1 60BCCCE6
+P 19250 2100
+F 0 "C?" V 18998 2100 50  0000 C CNN
+F 1 "100n" V 19089 2100 50  0000 C CNN
+F 2 "" H 19288 1950 50  0001 C CNN
+F 3 "~" H 19250 2100 50  0001 C CNN
+	1    19250 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19100 2100 18900 2100
+Connection ~ 18900 2100
+Wire Wire Line
+	18900 2100 18900 2200
+$Comp
+L power:GND #PWR?
+U 1 1 60BE3158
+P 19550 2100
+F 0 "#PWR?" H 19550 1850 50  0001 C CNN
+F 1 "GND" H 19555 1927 50  0000 C CNN
+F 2 "" H 19550 2100 50  0001 C CNN
+F 3 "" H 19550 2100 50  0001 C CNN
+	1    19550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19550 2100 19400 2100
 $EndSCHEMATC

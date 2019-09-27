@@ -1760,8 +1760,14 @@ Wire Wire Line
 	4150 6400 14150 6400
 Wire Wire Line
 	14150 6400 14150 6150
-NoConn ~ 6650 5250
-NoConn ~ 6650 5350
 NoConn ~ 4450 5350
 NoConn ~ 4450 4050
+Text HLabel 6850 5250 3    50   Input ~ 0
+PROGRAM_B
+Text HLabel 6750 5350 3    50   Input ~ 0
+DONE
+Wire Wire Line
+	6750 5350 6650 5350
+Wire Wire Line
+	6650 5250 6850 5250
 $EndSCHEMATC
