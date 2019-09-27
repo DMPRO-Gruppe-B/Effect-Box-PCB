@@ -6,4 +6,7 @@
   (lib (name flash_memory)(type Legacy)(uri ${KIPRJMOD}/symbols/flash_memory.lib)(options "")(descr ""))
   (lib (name LCD)(type Legacy)(uri ${KIPRJMOD}/symbols/lcd-components.lib)(options "")(descr ""))
   (lib (name pin_header)(type Legacy)(uri ${KIPRJMOD}/symbols/pin_header.lib)(options "")(descr ""))
+  (lib (name pcm3003)(type Legacy)(uri ${KIPRJMOD}/symbols/pcm3003.lib)(options "")(descr ""))
+  (lib (name ina1651)(type Legacy)(uri ${KIPRJMOD}/symbols/ina1651.lib)(options "")(descr ""))
+  (lib (name drv632)(type Legacy)(uri ${KIPRJMOD}/symbols/drv632.lib)(options "")(descr ""))
 )
