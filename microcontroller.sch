@@ -386,11 +386,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 4450 4350 4750
 Wire Wire Line
-	4350 4450 3950 4450
-Wire Wire Line
-	3950 4450 3950 4850
-Connection ~ 4350 4450
-Wire Wire Line
 	4350 4850 3950 4850
 Connection ~ 4350 4850
 $Comp
@@ -446,7 +441,6 @@ Wire Wire Line
 	3950 4850 3950 5700
 Wire Wire Line
 	3950 5700 3800 5700
-Connection ~ 3950 4850
 $Comp
 L Device:C C_avdd1
 U 1 1 5D839716
@@ -1048,17 +1042,6 @@ F 3 "~" H -3200 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R_btn_up_4
-U 1 1 5DAFA9E4
-P -2650 1650
-F 0 "R_btn_up_4" H -2580 1696 50  0000 L CNN
-F 1 "1 MΩ" H -2580 1605 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V -2720 1650 50  0001 C CNN
-F 3 "~" H -2650 1650 50  0001 C CNN
-	1    -2650 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R_btn_up_3
 U 1 1 5DAEF60F
 P -2100 1650
@@ -1207,8 +1190,6 @@ Wire Wire Line
 	1850 3000 -2250 3000
 Wire Wire Line
 	-2250 3000 -2250 1950
-Wire Wire Line
-	-2250 1950 -2650 1950
 Connection ~ 1850 2650
 Wire Wire Line
 	1850 2650 4450 2650
@@ -1773,5 +1754,18 @@ F 2 "Local:FH12A-10S-0.5SH55" H 7500 8990 60  0001 C CNN
 F 3 "" H 7500 9050 60  0000 C CNN
 	12   7500 9050
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-2250 1950 -2650 1950
+$Comp
+L Device:R R_btn_up_4
+U 1 1 5DAFA9E4
+P -2650 1650
+F 0 "R_btn_up_4" H -2580 1696 50  0000 L CNN
+F 1 "1 MΩ" H -2580 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V -2720 1650 50  0001 C CNN
+F 3 "~" H -2650 1650 50  0001 C CNN
+	1    -2650 1650
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
