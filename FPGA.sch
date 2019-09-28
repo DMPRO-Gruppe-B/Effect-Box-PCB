@@ -1389,7 +1389,7 @@ AR Path="/5D7D43D9/5DD5155F/5E538FF2" Ref="J?"  Part="1"
 AR Path="/5D7D43D9/5E538FF2" Ref="J1"  Part="1" 
 F 0 "J1" H -4550 1567 50  0000 C CNN
 F 1 "Conn_02x07_Odd_Even" H -4550 1476 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical_SMD" H -4600 1050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical" H -4600 1050 50  0001 C CNN
 F 3 "~" H -4600 1050 50  0001 C CNN
 	1    -4600 1050
 	1    0    0    -1  

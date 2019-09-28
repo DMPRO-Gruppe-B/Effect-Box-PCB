@@ -26,17 +26,6 @@ F 3 "~" H 750 950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0166
-U 1 1 5D824FDC
-P 950 950
-F 0 "#PWR0166" H 950 700 50  0001 C CNN
-F 1 "GND" H 955 777 50  0000 C CNN
-F 2 "" H 950 950 50  0001 C CNN
-F 3 "" H 950 950 50  0001 C CNN
-	1    950  950 
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5D83276C
 P 1200 950
@@ -932,7 +921,7 @@ U 1 1 5DB1CBAD
 P 1450 5200
 F 0 "J10" V 1377 5128 50  0000 C CNN
 F 1 "Power pins" V 1286 5128 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical" V 1195 5128 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" V 1195 5128 50  0001 C CNN
 F 3 "~" H 1450 5200 50  0001 C CNN
 	1    1450 5200
 	0    -1   -1   0   
@@ -1256,5 +1245,16 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9388 2050 50  
 F 3 "~" H 9350 2200 50  0001 C CNN
 	1    9350 2200
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5DAB192D
+P 950 950
+F 0 "#FLG0102" H 950 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 950 1123 50  0000 C CNN
+F 2 "" H 950 950 50  0001 C CNN
+F 3 "~" H 950 950 50  0001 C CNN
+	1    950  950 
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
