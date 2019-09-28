@@ -161,7 +161,7 @@ AR Path="/5D7F9345" Ref="J?"  Part="1"
 AR Path="/5D7D441F/5D7F9345" Ref="J5"  Part="1" 
 F 0 "J5" H 9750 4250 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_20" H 9750 4150 50  0000 R BNN
-F 2 "" H 10400 2350 50  0001 L TNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 10400 2350 50  0001 L TNN
 F 3 "" V 9600 2150 50  0001 C CNN
 	1    9950 3400
 	-1   0    0    -1  
