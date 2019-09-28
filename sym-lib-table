@@ -11,5 +11,5 @@
   (lib (name pcm3003)(type Legacy)(uri ${KIPRJMOD}/symbols/pcm3003.lib)(options "")(descr ""))
   (lib (name ina1651)(type Legacy)(uri ${KIPRJMOD}/symbols/ina1651.lib)(options "")(descr ""))
   (lib (name drv632)(type Legacy)(uri ${KIPRJMOD}/symbols/drv632.lib)(options "")(descr ""))
-  (lib (name button)(type Legacy)(uri ${KIPRJMOD}/library/button.lib)(options "")(descr ""))
+  (lib (name button)(type Legacy)(uri ${KIPRJMOD}/symbols/button.lib)(options "")(descr ""))
 )
