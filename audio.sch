@@ -390,18 +390,14 @@ Wire Wire Line
 $Comp
 L Device:C_Small C68
 U 1 1 5DB1DC64
-P 6600 3900
-F 0 "C68" H 6692 3946 50  0000 L CNN
-F 1 "1u" H 6692 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6600 3900 50  0001 C CNN
-F 3 "~" H 6600 3900 50  0001 C CNN
-	1    6600 3900
-	1    0    0    -1  
+P 6700 4000
+F 0 "C68" H 6792 4046 50  0000 L CNN
+F 1 "1u" H 6792 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6700 4000 50  0001 C CNN
+F 3 "~" H 6700 4000 50  0001 C CNN
+	1    6700 4000
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6600 3800 6600 3700
-Wire Wire Line
-	6400 3800 6600 3800
 Wire Wire Line
 	6400 3900 6500 3900
 Wire Wire Line
@@ -473,7 +469,6 @@ Wire Wire Line
 	6600 3700 6600 3100
 Wire Wire Line
 	6600 3100 5000 3100
-Connection ~ 6600 3700
 Wire Wire Line
 	3300 4000 3300 4200
 Wire Wire Line
@@ -486,7 +481,6 @@ Wire Wire Line
 Connection ~ 3750 3900
 Wire Wire Line
 	3750 3900 4000 3900
-Connection ~ 6600 3800
 $Comp
 L Connector:AudioJack3 J8
 U 1 1 5D92FF52
@@ -582,8 +576,6 @@ F 3 "~" H 7200 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6600 3800 7400 3800
-Wire Wire Line
 	7050 3300 7050 2900
 Wire Wire Line
 	7050 2900 7100 2900
@@ -622,4 +614,11 @@ Text HLabel 9400 5000 2    50   Input ~ 0
 FPGAIn
 Text HLabel 10350 5000 0    50   Input ~ 0
 FPGAOut
+Wire Wire Line
+	6800 4000 6800 3700
+Wire Wire Line
+	6800 3700 6600 3700
+Wire Wire Line
+	6400 3800 7400 3800
+Connection ~ 6600 3700
 $EndSCHEMATC
