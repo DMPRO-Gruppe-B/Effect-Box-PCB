@@ -1972,17 +1972,6 @@ Wire Wire Line
 	6700 3100 6900 3100
 Wire Wire Line
 	6900 3200 6700 3200
-$Comp
-L pin_header:26642801RP2 J2
-U 1 1 5F44891F
-P 3850 8800
-F 0 "J2" H 4850 9187 60  0000 C CNN
-F 1 "26642801RP2" H 4850 9081 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Vertical" H 4850 9040 60  0001 C CNN
-F 3 "" H 3850 8800 60  0000 C CNN
-	1    3850 8800
-	1    0    0    -1  
-$EndComp
 Text Label 6900 4100 2    50   ~ 0
 FPGA_pinout_1
 Text Label 6900 4200 2    50   ~ 0
@@ -2015,80 +2004,8 @@ Text Label 6900 5500 2    50   ~ 0
 FPGA_pinout_15
 Text Label 6900 5600 2    50   ~ 0
 FPGA_pinout_16
-Text Label 6900 5700 2    50   ~ 0
-FPGA_pinout_17
-Text Label 6900 5800 2    50   ~ 0
-FPGA_pinout_18
-Text Label 6900 5900 2    50   ~ 0
-FPGA_pinout_19
-Text Label 6900 6000 2    50   ~ 0
-FPGA_pinout_20
-Text Label 6900 6100 2    50   ~ 0
-FPGA_pinout_21
-Text Label 6900 6200 2    50   ~ 0
-FPGA_pinout_22
-Text Label 6900 6300 2    50   ~ 0
-FPGA_pinout_23
-Text Label 6900 6400 2    50   ~ 0
-FPGA_pinout_24
-Text Label 6900 6500 2    50   ~ 0
-FPGA_pinout_25
-Text Label 6900 6600 2    50   ~ 0
-FPGA_pinout_26
-Text Label 3850 8800 2    50   ~ 0
-FPGA_pinout_1
-Text Label 3850 8900 2    50   ~ 0
-FPGA_pinout_2
-Text Label 3850 9000 2    50   ~ 0
-FPGA_pinout_3
-Text Label 3850 9100 2    50   ~ 0
-FPGA_pinout_4
-Text Label 3850 9200 2    50   ~ 0
-FPGA_pinout_5
-Text Label 3850 9300 2    50   ~ 0
-FPGA_pinout_6
-Text Label 3850 9400 2    50   ~ 0
-FPGA_pinout_7
-Text Label 3850 9500 2    50   ~ 0
-FPGA_pinout_8
-Text Label 3850 9600 2    50   ~ 0
-FPGA_pinout_9
-Text Label 3850 9700 2    50   ~ 0
-FPGA_pinout_10
-Text Label 3850 9800 2    50   ~ 0
-FPGA_pinout_11
-Text Label 3850 9900 2    50   ~ 0
-FPGA_pinout_12
-Text Label 3850 10000 2    50   ~ 0
-FPGA_pinout_13
-Text Label 3850 10100 2    50   ~ 0
-FPGA_pinout_14
-Text Label 5850 10100 0    50   ~ 0
-FPGA_pinout_15
-Text Label 5850 10000 0    50   ~ 0
-FPGA_pinout_16
-Text Label 5850 9900 0    50   ~ 0
-FPGA_pinout_17
-Text Label 5850 9800 0    50   ~ 0
-FPGA_pinout_18
-Text Label 5850 9700 0    50   ~ 0
-FPGA_pinout_19
-Text Label 5850 9600 0    50   ~ 0
-FPGA_pinout_20
-Text Label 5850 9500 0    50   ~ 0
-FPGA_pinout_21
-Text Label 5850 9400 0    50   ~ 0
-FPGA_pinout_22
-Text Label 5850 9300 0    50   ~ 0
-FPGA_pinout_23
-Text Label 5850 9200 0    50   ~ 0
-FPGA_pinout_24
-Text Label 5850 9100 0    50   ~ 0
-FPGA_pinout_25
-Text Label 5850 9000 0    50   ~ 0
-FPGA_pinout_26
 Wire Wire Line
-	5400 4000 6900 4000
+	5400 4000 6050 4000
 Text Notes -300 6200 2    50   ~ 0
 Vccbram
 Text Notes -300 4950 2    50   ~ 0
@@ -2162,6 +2079,23 @@ Wire Wire Line
 	5700 3100 4750 3100
 Text Notes -400 7450 2    50   ~ 0
 Vccint
+Wire Wire Line
+	6050 8900 5850 8900
+Wire Wire Line
+	6050 8700 6050 8900
+Wire Wire Line
+	5850 8800 5850 8700
+$Comp
+L power:+3V3 #PWR0181
+U 1 1 5D9DC78C
+P 6050 8700
+F 0 "#PWR0181" H 6050 8550 50  0001 C CNN
+F 1 "+3V3" H 6065 8873 50  0000 C CNN
+F 2 "" H 6050 8700 50  0001 C CNN
+F 3 "" H 6050 8700 50  0001 C CNN
+	1    6050 8700
+	1    0    0    -1  
+$EndComp
 $Comp
 L power:GND #PWR0172
 U 1 1 5D9DC146
@@ -2174,20 +2108,74 @@ F 3 "" H 5850 8700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR0181
-U 1 1 5D9DC78C
-P 6050 8700
-F 0 "#PWR0181" H 6050 8550 50  0001 C CNN
-F 1 "+3V3" H 6065 8873 50  0000 C CNN
-F 2 "" H 6050 8700 50  0001 C CNN
-F 3 "" H 6050 8700 50  0001 C CNN
-	1    6050 8700
+L pin_header:26642801RP2 J2
+U 1 1 5F44891F
+P 3850 8800
+F 0 "J2" H 4850 9187 60  0000 C CNN
+F 1 "26642801RP2" H 4850 9081 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Vertical" H 4850 9040 60  0001 C CNN
+F 3 "" H 3850 8800 60  0000 C CNN
+	1    3850 8800
 	1    0    0    -1  
 $EndComp
+Text Label 3850 9500 2    50   ~ 0
+FPGA_pinout_8
+Text Label 3850 9400 2    50   ~ 0
+FPGA_pinout_7
+Text Label 3850 9300 2    50   ~ 0
+FPGA_pinout_6
+Text Label 3850 9200 2    50   ~ 0
+FPGA_pinout_5
+Text Label 3850 9100 2    50   ~ 0
+FPGA_pinout_4
+Text Label 3850 9000 2    50   ~ 0
+FPGA_pinout_3
+Text Label 3850 8900 2    50   ~ 0
+FPGA_pinout_2
+Text Label 3850 8800 2    50   ~ 0
+FPGA_pinout_1
+Text Label 3850 10100 2    50   ~ 0
+FPGA_pinout_14
+Text Label 3850 10000 2    50   ~ 0
+FPGA_pinout_13
+Text Label 3850 9900 2    50   ~ 0
+FPGA_pinout_12
+Text Label 3850 9800 2    50   ~ 0
+FPGA_pinout_11
+Text Label 3850 9700 2    50   ~ 0
+FPGA_pinout_10
+Text Label 3850 9600 2    50   ~ 0
+FPGA_pinout_9
+Text Label 5850 10000 0    50   ~ 0
+FPGA_pinout_16
+Text Label 5850 10100 0    50   ~ 0
+FPGA_pinout_15
+Text Label 5850 9900 0    50   ~ 0
+FPGA_pinout_clk
+NoConn ~ 5850 9000
+NoConn ~ 5850 9100
+NoConn ~ 5850 9200
+NoConn ~ 5850 9300
+NoConn ~ 5850 9400
+NoConn ~ 5850 9500
+NoConn ~ 5850 9600
+NoConn ~ 5850 9700
+NoConn ~ 5850 9800
+NoConn ~ 6900 5700
+NoConn ~ 6900 5800
+NoConn ~ 6900 5900
+NoConn ~ 6900 6000
+NoConn ~ 6900 6100
+NoConn ~ 6900 6200
+NoConn ~ 6900 6300
+NoConn ~ 6900 6400
+NoConn ~ 6900 6500
+NoConn ~ 6900 6600
+Text Label 6050 3900 0    50   ~ 0
+FPGA_pinout_clk
 Wire Wire Line
-	5850 8800 5850 8700
+	6050 3900 6050 4000
+Connection ~ 6050 4000
 Wire Wire Line
-	6050 8700 6050 8900
-Wire Wire Line
-	6050 8900 5850 8900
+	6050 4000 6900 4000
 $EndSCHEMATC
