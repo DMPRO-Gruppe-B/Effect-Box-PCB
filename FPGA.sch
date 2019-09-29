@@ -2087,8 +2087,6 @@ Text Label 5850 9100 0    50   ~ 0
 FPGA_pinout_25
 Text Label 5850 9000 0    50   ~ 0
 FPGA_pinout_26
-NoConn ~ 5850 8800
-NoConn ~ 5850 8900
 Wire Wire Line
 	5400 4000 6900 4000
 Text Notes -300 6200 2    50   ~ 0
@@ -2164,4 +2162,32 @@ Wire Wire Line
 	5700 3100 4750 3100
 Text Notes -400 7450 2    50   ~ 0
 Vccint
+$Comp
+L power:GND #PWR0172
+U 1 1 5D9DC146
+P 5850 8700
+F 0 "#PWR0172" H 5850 8450 50  0001 C CNN
+F 1 "GND" H 5855 8527 50  0000 C CNN
+F 2 "" H 5850 8700 50  0001 C CNN
+F 3 "" H 5850 8700 50  0001 C CNN
+	1    5850 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0181
+U 1 1 5D9DC78C
+P 6050 8700
+F 0 "#PWR0181" H 6050 8550 50  0001 C CNN
+F 1 "+3V3" H 6065 8873 50  0000 C CNN
+F 2 "" H 6050 8700 50  0001 C CNN
+F 3 "" H 6050 8700 50  0001 C CNN
+	1    6050 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 8800 5850 8700
+Wire Wire Line
+	6050 8700 6050 8900
+Wire Wire Line
+	6050 8900 5850 8900
 $EndSCHEMATC
