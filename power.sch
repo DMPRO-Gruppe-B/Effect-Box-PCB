@@ -514,8 +514,6 @@ F 3 "~" H 3600 5050 50  0001 C CNN
 	1    3600 5050
 	1    0    0    -1  
 $EndComp
-Text Notes 3000 4400 0    50   ~ 0
-I_p>2.8A, I_rms>2.1A
 $Comp
 L Device:C C2
 U 1 1 5D8B7A73
