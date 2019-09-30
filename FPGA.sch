@@ -925,125 +925,6 @@ Wire Wire Line
 Connection ~ 5550 4100
 Connection ~ 5550 4400
 $Comp
-L Device:C C48
-U 1 1 5E16807C
-P -3350 3650
-F 0 "C48" H -3235 3696 50  0000 C BNN
-F 1 "47u" H -3235 3605 50  0000 C TNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -3312 3500 50  0001 C CNN
-F 3 "~" H -3350 3650 50  0001 C CNN
-	1    -3350 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C50
-U 1 1 5E168086
-P -3650 3650
-F 0 "C50" H -3535 3696 50  0000 C BNN
-F 1 "4.7u" H -3535 3605 50  0000 C TNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -3612 3500 50  0001 C CNN
-F 3 "~" H -3650 3650 50  0001 C CNN
-	1    -3650 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C52
-U 1 1 5E168090
-P -3950 3650
-F 0 "C52" H -3835 3696 50  0000 C BNN
-F 1 "4.7u" H -3835 3605 50  0000 C TNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -3912 3500 50  0001 C CNN
-F 3 "~" H -3950 3650 50  0001 C CNN
-	1    -3950 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C54
-U 1 1 5E16809A
-P -4250 3650
-F 0 "C54" H -4135 3696 50  0000 C BNN
-F 1 "0.47u" H -4135 3605 50  0000 C TNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -4212 3500 50  0001 C CNN
-F 3 "~" H -4250 3650 50  0001 C CNN
-	1    -4250 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C56
-U 1 1 5E1680A4
-P -4550 3650
-F 0 "C56" H -4435 3696 50  0000 C BNN
-F 1 "0.47u" H -4435 3605 50  0000 C TNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -4512 3500 50  0001 C CNN
-F 3 "~" H -4550 3650 50  0001 C CNN
-	1    -4550 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C58
-U 1 1 5E1680AE
-P -4850 3650
-F 0 "C58" H -4735 3696 50  0000 C BNN
-F 1 "0.47u" H -4735 3605 50  0000 C TNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -4812 3500 50  0001 C CNN
-F 3 "~" H -4850 3650 50  0001 C CNN
-	1    -4850 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C60
-U 1 1 5E1680B8
-P -5150 3650
-F 0 "C60" H -5035 3696 50  0000 C BNN
-F 1 "0.47u" H -5035 3605 50  0000 C TNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H -5112 3500 50  0001 C CNN
-F 3 "~" H -5150 3650 50  0001 C CNN
-	1    -5150 3650
-	-1   0    0    1   
-$EndComp
-Connection ~ -3350 3800
-Wire Wire Line
-	-3350 3800 -3650 3800
-Connection ~ -3650 3800
-Wire Wire Line
-	-3650 3800 -3950 3800
-Wire Wire Line
-	-4250 3800 -4550 3800
-Connection ~ -4550 3800
-Wire Wire Line
-	-4550 3800 -4850 3800
-Connection ~ -4850 3800
-Wire Wire Line
-	-4850 3800 -5150 3800
-Connection ~ -3350 3500
-Connection ~ -3650 3500
-Wire Wire Line
-	-3650 3500 -3350 3500
-Wire Wire Line
-	-3950 3500 -3650 3500
-Connection ~ -4550 3500
-Wire Wire Line
-	-4550 3500 -4250 3500
-Connection ~ -4850 3500
-Wire Wire Line
-	-4850 3500 -4550 3500
-Wire Wire Line
-	-5150 3500 -4850 3500
-Wire Wire Line
-	-2950 3800 -3350 3800
-Wire Wire Line
-	-2950 3500 -3350 3500
-Wire Wire Line
-	-3950 3800 -4250 3800
-Connection ~ -3950 3800
-Connection ~ -4250 3800
-Wire Wire Line
-	-3950 3500 -4250 3500
-Connection ~ -3950 3500
-Connection ~ -4250 3500
-Connection ~ -2950 3800
-Connection ~ -2950 3500
-$Comp
 L power:GND #PWR0124
 U 1 1 5E505D4A
 P 13450 1300
@@ -1077,261 +958,6 @@ NoConn ~ 12650 3700
 NoConn ~ 12650 3800
 NoConn ~ 12650 3900
 NoConn ~ 12650 4000
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E505D64
-P 15550 1300
-AR Path="/5D7D43D9/5E0EF1ED/5E505D64" Ref="#PWR?"  Part="1" 
-AR Path="/5D7D43D9/5E505D64" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 15550 1150 50  0001 C CNN
-F 1 "+3V3" H 15565 1473 50  0000 C CNN
-F 2 "" H 15550 1300 50  0001 C CNN
-F 3 "" H 15550 1300 50  0001 C CNN
-	1    15550 1300
-	1    0    0    -1  
-$EndComp
-Connection ~ 13150 1300
-Wire Wire Line
-	13050 1300 13150 1300
-Connection ~ 13250 1300
-Wire Wire Line
-	13150 1300 13250 1300
-Wire Wire Line
-	13250 1300 13450 1300
-Connection ~ 15750 1300
-Wire Wire Line
-	15750 1300 15850 1300
-Wire Wire Line
-	15550 1300 15750 1300
-Connection ~ 15850 1300
-Connection ~ 15950 1300
-Wire Wire Line
-	15850 1300 15950 1300
-Wire Wire Line
-	15950 1300 16050 1300
-Connection ~ 16050 1300
-Connection ~ 16150 1300
-Wire Wire Line
-	16050 1300 16150 1300
-Wire Wire Line
-	16150 1300 16250 1300
-$Comp
-L FPGA_Xilinx_Artix7:XC7A100T-FTG256 U3
-U 2 1 5E505D7A
-P 14650 4200
-AR Path="/5D7D43D9/5E505D7A" Ref="U3"  Part="2" 
-AR Path="/5D7D43D9/5DD5155F/5E505D7A" Ref="U?"  Part="2" 
-AR Path="/5D7D43D9/5E0EF1ED/5E505D7A" Ref="U?"  Part="2" 
-F 0 "U3" H 14650 1225 50  0000 C CNN
-F 1 "XC7A100T-FTG256" H 14650 1134 50  0000 C CNN
-F 2 "Package_BGA:Xilinx_FTG256" H 14650 4200 50  0001 C CNN
-F 3 "" H 14650 4200 50  0000 C CNN
-	2    14650 4200
-	1    0    0    -1  
-$EndComp
-Text Label 18300 4000 2    50   ~ 0
-SRAM_dio0
-Text Label 18300 3900 2    50   ~ 0
-SRAM_dio1
-Text Label 18300 3800 2    50   ~ 0
-SRAM_dio2
-Text Label 18300 3700 2    50   ~ 0
-SRAM_dio3
-Text Label 18300 3600 2    50   ~ 0
-SRAM_dio4
-Text Label 18300 3500 2    50   ~ 0
-SRAM_dio5
-Text Label 18300 3400 2    50   ~ 0
-SRAM_dio6
-Text Label 18300 3300 2    50   ~ 0
-SRAM_dio7
-Text Label 18300 3200 2    50   ~ 0
-SRAM_dio8
-Text Label 18300 3100 2    50   ~ 0
-SRAM_dio9
-Text Label 18300 3000 2    50   ~ 0
-SRAM_dio10
-Text Label 18300 2900 2    50   ~ 0
-SRAM_dio11
-Text Label 18300 2800 2    50   ~ 0
-SRAM_dio12
-Text Label 18300 2700 2    50   ~ 0
-SRAM_dio13
-Text Label 18300 2600 2    50   ~ 0
-SRAM_dio14
-Text Label 18300 2500 2    50   ~ 0
-SRAM_dio15
-Text Label 16650 2100 0    50   ~ 0
-SRAM_dio0
-Text Label 16650 2200 0    50   ~ 0
-SRAM_dio1
-Text Label 16650 2300 0    50   ~ 0
-SRAM_dio2
-Text Label 16650 2400 0    50   ~ 0
-SRAM_dio3
-Text Label 16650 2500 0    50   ~ 0
-SRAM_dio4
-Text Label 16650 2600 0    50   ~ 0
-SRAM_dio5
-Text Label 16650 2700 0    50   ~ 0
-SRAM_dio6
-Text Label 16650 2800 0    50   ~ 0
-SRAM_dio7
-Text Label 16650 2900 0    50   ~ 0
-SRAM_dio8
-Text Label 16650 3000 0    50   ~ 0
-SRAM_dio9
-Text Label 16650 3100 0    50   ~ 0
-SRAM_dio10
-Text Label 16650 3200 0    50   ~ 0
-SRAM_dio11
-Text Label 16650 3300 0    50   ~ 0
-SRAM_dio12
-Text Label 16650 3400 0    50   ~ 0
-SRAM_dio13
-Text Label 16650 3500 0    50   ~ 0
-SRAM_dio14
-Text Label 16650 3600 0    50   ~ 0
-SRAM_dio15
-Text Label 19500 4400 0    50   ~ 0
-SRAM_a0
-Text Label 19500 4300 0    50   ~ 0
-SRAM_a1
-Text Label 19500 4200 0    50   ~ 0
-SRAM_a2
-Text Label 19500 4100 0    50   ~ 0
-SRAM_a3
-Text Label 19500 4000 0    50   ~ 0
-SRAM_a4
-Text Label 19500 3900 0    50   ~ 0
-SRAM_a5
-Text Label 19500 3800 0    50   ~ 0
-SRAM_a6
-Text Label 19500 3700 0    50   ~ 0
-SRAM_a7
-Text Label 19500 3600 0    50   ~ 0
-SRAM_a8
-Text Label 19500 3500 0    50   ~ 0
-SRAM_a9
-Text Label 19500 3400 0    50   ~ 0
-SRAM_a10
-Text Label 19500 3300 0    50   ~ 0
-SRAM_a11
-Text Label 19500 3200 0    50   ~ 0
-SRAM_a12
-Text Label 19500 3100 0    50   ~ 0
-SRAM_a13
-Text Label 19500 3000 0    50   ~ 0
-SRAM_a14
-Text Label 19500 2900 0    50   ~ 0
-SRAM_a15
-Text Label 19500 2800 0    50   ~ 0
-SRAM_a16
-Text Label 19500 2700 0    50   ~ 0
-SRAM_a17
-Text Label 19500 2600 0    50   ~ 0
-SRAM_a18
-Text Label 19500 2500 0    50   ~ 0
-SRAM_a19
-Text Label 16650 3700 0    50   ~ 0
-SRAM_a0
-Text Label 16650 3800 0    50   ~ 0
-SRAM_a1
-Text Label 16650 3900 0    50   ~ 0
-SRAM_a2
-Text Label 16650 4000 0    50   ~ 0
-SRAM_a3
-Text Label 16650 4100 0    50   ~ 0
-SRAM_a4
-Text Label 16650 4200 0    50   ~ 0
-SRAM_a5
-Text Label 16650 4300 0    50   ~ 0
-SRAM_a6
-Text Label 16650 4400 0    50   ~ 0
-SRAM_a7
-Text Label 16650 4500 0    50   ~ 0
-SRAM_a8
-Text Label 16650 4600 0    50   ~ 0
-SRAM_a9
-Text Label 16650 4700 0    50   ~ 0
-SRAM_a10
-Text Label 16650 4800 0    50   ~ 0
-SRAM_a11
-Text Label 16650 4900 0    50   ~ 0
-SRAM_a12
-Text Label 16650 5000 0    50   ~ 0
-SRAM_a13
-Text Label 16650 5100 0    50   ~ 0
-SRAM_a14
-Text Label 16650 5200 0    50   ~ 0
-SRAM_a15
-Text Label 16650 5300 0    50   ~ 0
-SRAM_a16
-Text Label 16650 5400 0    50   ~ 0
-SRAM_a17
-Text Label 16650 5500 0    50   ~ 0
-SRAM_a18
-Text Label 16650 5600 0    50   ~ 0
-SRAM_a19
-$Comp
-L Memory_RAM:AS6C1616 U?
-U 1 1 5E505DC8
-P 18900 3600
-AR Path="/5D7D43D9/5E0EF1ED/5E505DC8" Ref="U?"  Part="1" 
-AR Path="/5D7D43D9/5E505DC8" Ref="U6"  Part="1" 
-F 0 "U6" H 18650 4900 50  0000 C CNN
-F 1 "AS6C1616" H 19200 2300 50  0000 C CNN
-F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 19950 2250 50  0001 C CNN
-F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf" H 18600 4050 50  0001 C CNN
-	1    18900 3600
-	1    0    0    -1  
-$EndComp
-Text Label 18300 4200 2    50   ~ 0
-SRAM_oe#
-Text Label 18300 4300 2    50   ~ 0
-SRAM_we#
-Text Label 18300 4400 2    50   ~ 0
-SRAM_ce#
-Text Label 18300 4500 2    50   ~ 0
-SRAM_ce2
-Text Label 18300 4600 2    50   ~ 0
-SRAM_ub#
-Text Label 18300 4700 2    50   ~ 0
-SRAM_lb#
-Text Label 16650 5700 0    50   ~ 0
-SRAM_oe#
-Text Label 16650 5800 0    50   ~ 0
-SRAM_we#
-Text Label 16650 5900 0    50   ~ 0
-SRAM_ce#
-Text Label 16650 6000 0    50   ~ 0
-SRAM_ce2
-Text Label 16650 6100 0    50   ~ 0
-SRAM_ub#
-Text Label 16650 6200 0    50   ~ 0
-SRAM_lb#
-Wire Wire Line
-	18900 2000 18900 2100
-$Comp
-L power:GND #PWR?
-U 1 1 5E505DDB
-P 18500 5050
-AR Path="/5D7D43D9/5E0EF1ED/5E505DDB" Ref="#PWR?"  Part="1" 
-AR Path="/5D7D43D9/5E505DDB" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 18500 4800 50  0001 C CNN
-F 1 "GND" H 18505 4877 50  0000 C CNN
-F 2 "" H 18500 5050 50  0001 C CNN
-F 3 "" H 18500 5050 50  0001 C CNN
-	1    18500 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18900 5000 18800 5000
-Wire Wire Line
-	18500 5000 18500 5050
-Connection ~ 18800 5000
-Wire Wire Line
-	18800 5000 18500 5000
 NoConn ~ 16650 6300
 NoConn ~ 16650 6400
 NoConn ~ 16650 6500
@@ -1340,19 +966,6 @@ NoConn ~ 16650 6700
 NoConn ~ 16650 6800
 NoConn ~ 16650 6900
 NoConn ~ 16650 7000
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E505DED
-P 18900 2000
-AR Path="/5D7D43D9/5E0EF1ED/5E505DED" Ref="#PWR?"  Part="1" 
-AR Path="/5D7D43D9/5E505DED" Ref="#PWR0127"  Part="1" 
-F 0 "#PWR0127" H 18900 1850 50  0001 C CNN
-F 1 "+3V3" H 18915 2173 50  0000 C CNN
-F 2 "" H 18900 2000 50  0001 C CNN
-F 3 "" H 18900 2000 50  0001 C CNN
-	1    18900 2000
-	1    0    0    -1  
-$EndComp
 $Comp
 L FPGA_Xilinx_Artix7:XC7A100T-FTG256 U3
 U 3 1 5E538FE5
@@ -1389,7 +1002,7 @@ AR Path="/5D7D43D9/5DD5155F/5E538FF2" Ref="J?"  Part="1"
 AR Path="/5D7D43D9/5E538FF2" Ref="J1"  Part="1" 
 F 0 "J1" H -4550 1567 50  0000 C CNN
 F 1 "Conn_02x07_Odd_Even" H -4550 1476 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical_SMD" H -4600 1050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x07_P2.00mm_Vertical" H -4600 1050 50  0001 C CNN
 F 3 "~" H -4600 1050 50  0001 C CNN
 	1    -4600 1050
 	1    0    0    -1  
@@ -1972,17 +1585,6 @@ Wire Wire Line
 	6700 3100 6900 3100
 Wire Wire Line
 	6900 3200 6700 3200
-$Comp
-L pin_header:26642801RP2 J2
-U 1 1 5F44891F
-P 3850 8800
-F 0 "J2" H 4850 9187 60  0000 C CNN
-F 1 "26642801RP2" H 4850 9081 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Vertical" H 4850 9040 60  0001 C CNN
-F 3 "" H 3850 8800 60  0000 C CNN
-	1    3850 8800
-	1    0    0    -1  
-$EndComp
 Text Label 6900 4100 2    50   ~ 0
 FPGA_pinout_1
 Text Label 6900 4200 2    50   ~ 0
@@ -2015,82 +1617,6 @@ Text Label 6900 5500 2    50   ~ 0
 FPGA_pinout_15
 Text Label 6900 5600 2    50   ~ 0
 FPGA_pinout_16
-Text Label 6900 5700 2    50   ~ 0
-FPGA_pinout_17
-Text Label 6900 5800 2    50   ~ 0
-FPGA_pinout_18
-Text Label 6900 5900 2    50   ~ 0
-FPGA_pinout_19
-Text Label 6900 6000 2    50   ~ 0
-FPGA_pinout_20
-Text Label 6900 6100 2    50   ~ 0
-FPGA_pinout_21
-Text Label 6900 6200 2    50   ~ 0
-FPGA_pinout_22
-Text Label 6900 6300 2    50   ~ 0
-FPGA_pinout_23
-Text Label 6900 6400 2    50   ~ 0
-FPGA_pinout_24
-Text Label 6900 6500 2    50   ~ 0
-FPGA_pinout_25
-Text Label 6900 6600 2    50   ~ 0
-FPGA_pinout_26
-Text Label 3850 8800 2    50   ~ 0
-FPGA_pinout_1
-Text Label 3850 8900 2    50   ~ 0
-FPGA_pinout_2
-Text Label 3850 9000 2    50   ~ 0
-FPGA_pinout_3
-Text Label 3850 9100 2    50   ~ 0
-FPGA_pinout_4
-Text Label 3850 9200 2    50   ~ 0
-FPGA_pinout_5
-Text Label 3850 9300 2    50   ~ 0
-FPGA_pinout_6
-Text Label 3850 9400 2    50   ~ 0
-FPGA_pinout_7
-Text Label 3850 9500 2    50   ~ 0
-FPGA_pinout_8
-Text Label 3850 9600 2    50   ~ 0
-FPGA_pinout_9
-Text Label 3850 9700 2    50   ~ 0
-FPGA_pinout_10
-Text Label 3850 9800 2    50   ~ 0
-FPGA_pinout_11
-Text Label 3850 9900 2    50   ~ 0
-FPGA_pinout_12
-Text Label 3850 10000 2    50   ~ 0
-FPGA_pinout_13
-Text Label 3850 10100 2    50   ~ 0
-FPGA_pinout_14
-Text Label 5850 10100 0    50   ~ 0
-FPGA_pinout_15
-Text Label 5850 10000 0    50   ~ 0
-FPGA_pinout_16
-Text Label 5850 9900 0    50   ~ 0
-FPGA_pinout_17
-Text Label 5850 9800 0    50   ~ 0
-FPGA_pinout_18
-Text Label 5850 9700 0    50   ~ 0
-FPGA_pinout_19
-Text Label 5850 9600 0    50   ~ 0
-FPGA_pinout_20
-Text Label 5850 9500 0    50   ~ 0
-FPGA_pinout_21
-Text Label 5850 9400 0    50   ~ 0
-FPGA_pinout_22
-Text Label 5850 9300 0    50   ~ 0
-FPGA_pinout_23
-Text Label 5850 9200 0    50   ~ 0
-FPGA_pinout_24
-Text Label 5850 9100 0    50   ~ 0
-FPGA_pinout_25
-Text Label 5850 9000 0    50   ~ 0
-FPGA_pinout_26
-NoConn ~ 5850 8800
-NoConn ~ 5850 8900
-Wire Wire Line
-	5400 4000 6900 4000
 Text Notes -300 6200 2    50   ~ 0
 Vccbram
 Text Notes -300 4950 2    50   ~ 0
@@ -2103,35 +1629,6 @@ Text HLabel -3200 1600 3    50   Input ~ 0
 PROGRAM_B
 Text HLabel -2600 1600 3    50   Input ~ 0
 DONE
-$Comp
-L Device:C C63
-U 1 1 60BCCCE6
-P 19250 2100
-F 0 "C63" V 18998 2100 50  0000 C CNN
-F 1 "100n" V 19089 2100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 19288 1950 50  0001 C CNN
-F 3 "~" H 19250 2100 50  0001 C CNN
-	1    19250 2100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	19100 2100 18900 2100
-Connection ~ 18900 2100
-Wire Wire Line
-	18900 2100 18900 2200
-$Comp
-L power:GND #PWR0163
-U 1 1 60BE3158
-P 19550 2100
-F 0 "#PWR0163" H 19550 1850 50  0001 C CNN
-F 1 "GND" H 19555 1927 50  0000 C CNN
-F 2 "" H 19550 2100 50  0001 C CNN
-F 3 "" H 19550 2100 50  0001 C CNN
-	1    19550 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19550 2100 19400 2100
 Wire Wire Line
 	6900 2200 5300 2200
 Wire Wire Line
@@ -2164,4 +1661,192 @@ Wire Wire Line
 	5700 3100 4750 3100
 Text Notes -400 7450 2    50   ~ 0
 Vccint
+Wire Wire Line
+	6050 8900 5850 8900
+Wire Wire Line
+	6050 8700 6050 8900
+Wire Wire Line
+	5850 8800 5850 8700
+$Comp
+L power:+3V3 #PWR0181
+U 1 1 5D9DC78C
+P 6050 8700
+F 0 "#PWR0181" H 6050 8550 50  0001 C CNN
+F 1 "+3V3" H 6065 8873 50  0000 C CNN
+F 2 "" H 6050 8700 50  0001 C CNN
+F 3 "" H 6050 8700 50  0001 C CNN
+	1    6050 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0172
+U 1 1 5D9DC146
+P 5850 8700
+F 0 "#PWR0172" H 5850 8450 50  0001 C CNN
+F 1 "GND" H 5855 8527 50  0000 C CNN
+F 2 "" H 5850 8700 50  0001 C CNN
+F 3 "" H 5850 8700 50  0001 C CNN
+	1    5850 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L pin_header:26642801RP2 J2
+U 1 1 5F44891F
+P 3850 8800
+F 0 "J2" H 4850 9187 60  0000 C CNN
+F 1 "26642801RP2" H 4850 9081 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Vertical" H 4850 9040 60  0001 C CNN
+F 3 "" H 3850 8800 60  0000 C CNN
+	1    3850 8800
+	1    0    0    -1  
+$EndComp
+Text Label 3850 9500 2    50   ~ 0
+FPGA_pinout_8
+Text Label 3850 9400 2    50   ~ 0
+FPGA_pinout_7
+Text Label 3850 9300 2    50   ~ 0
+FPGA_pinout_6
+Text Label 3850 9200 2    50   ~ 0
+FPGA_pinout_5
+Text Label 3850 9100 2    50   ~ 0
+FPGA_pinout_4
+Text Label 3850 9000 2    50   ~ 0
+FPGA_pinout_3
+Text Label 3850 8900 2    50   ~ 0
+FPGA_pinout_2
+Text Label 3850 8800 2    50   ~ 0
+FPGA_pinout_1
+Text Label 3850 10100 2    50   ~ 0
+FPGA_pinout_14
+Text Label 3850 10000 2    50   ~ 0
+FPGA_pinout_13
+Text Label 3850 9900 2    50   ~ 0
+FPGA_pinout_12
+Text Label 3850 9800 2    50   ~ 0
+FPGA_pinout_11
+Text Label 3850 9700 2    50   ~ 0
+FPGA_pinout_10
+Text Label 3850 9600 2    50   ~ 0
+FPGA_pinout_9
+Text Label 5850 10000 0    50   ~ 0
+FPGA_pinout_16
+Text Label 5850 10100 0    50   ~ 0
+FPGA_pinout_15
+NoConn ~ 5850 9000
+NoConn ~ 5850 9100
+NoConn ~ 5850 9200
+NoConn ~ 5850 9300
+NoConn ~ 5850 9400
+NoConn ~ 5850 9500
+NoConn ~ 5850 9600
+NoConn ~ 5850 9700
+NoConn ~ 5850 9800
+NoConn ~ 6900 5700
+NoConn ~ 6900 5800
+NoConn ~ 6900 5900
+NoConn ~ 6900 6000
+NoConn ~ 6900 6100
+NoConn ~ 6900 6200
+NoConn ~ 6900 6300
+NoConn ~ 6900 6400
+NoConn ~ 6900 6500
+NoConn ~ 6900 6600
+NoConn ~ 16650 6200
+NoConn ~ 16650 6100
+NoConn ~ 16650 6000
+NoConn ~ 16650 5900
+NoConn ~ 16650 5800
+NoConn ~ 16650 5700
+NoConn ~ 16650 5600
+NoConn ~ 16650 5500
+NoConn ~ 16650 5400
+NoConn ~ 16650 5300
+NoConn ~ 16650 5200
+NoConn ~ 16650 5100
+NoConn ~ 16650 5000
+NoConn ~ 16650 4900
+NoConn ~ 16650 4800
+NoConn ~ 16650 4700
+NoConn ~ 16650 4600
+NoConn ~ 16650 4500
+NoConn ~ 16650 4400
+NoConn ~ 16650 4300
+NoConn ~ 16650 4200
+NoConn ~ 16650 4100
+NoConn ~ 16650 4000
+NoConn ~ 16650 3900
+NoConn ~ 16650 3800
+NoConn ~ 16650 3700
+NoConn ~ 16650 3600
+NoConn ~ 16650 3500
+NoConn ~ 16650 3400
+NoConn ~ 16650 3300
+NoConn ~ 16650 3200
+NoConn ~ 16650 3100
+NoConn ~ 16650 3000
+NoConn ~ 16650 2900
+NoConn ~ 16650 2800
+NoConn ~ 16650 2700
+NoConn ~ 16650 2600
+NoConn ~ 16650 2500
+NoConn ~ 16650 2400
+NoConn ~ 16650 2300
+NoConn ~ 16650 2200
+NoConn ~ 16650 2100
+Connection ~ 13150 1300
+Wire Wire Line
+	13050 1300 13150 1300
+Connection ~ 13250 1300
+Wire Wire Line
+	13150 1300 13250 1300
+Wire Wire Line
+	13250 1300 13450 1300
+Connection ~ 15750 1300
+Wire Wire Line
+	15750 1300 15850 1300
+Connection ~ 15850 1300
+Connection ~ 15950 1300
+Wire Wire Line
+	15850 1300 15950 1300
+Wire Wire Line
+	15950 1300 16050 1300
+Connection ~ 16050 1300
+Connection ~ 16150 1300
+Wire Wire Line
+	16050 1300 16150 1300
+Wire Wire Line
+	16150 1300 16250 1300
+Wire Wire Line
+	15550 1300 15750 1300
+$Comp
+L FPGA_Xilinx_Artix7:XC7A100T-FTG256 U3
+U 2 1 5E505D7A
+P 14650 4200
+AR Path="/5D7D43D9/5E505D7A" Ref="U3"  Part="2" 
+AR Path="/5D7D43D9/5DD5155F/5E505D7A" Ref="U?"  Part="2" 
+AR Path="/5D7D43D9/5E0EF1ED/5E505D7A" Ref="U?"  Part="2" 
+F 0 "U3" H 14650 1225 50  0000 C CNN
+F 1 "XC7A100T-FTG256" H 14650 1134 50  0000 C CNN
+F 2 "Package_BGA:Xilinx_FTG256" H 14650 4200 50  0001 C CNN
+F 3 "" H 14650 4200 50  0000 C CNN
+	2    14650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5DE26E8B
+P 15550 1300
+AR Path="/5D7D43D9/5DE26E8B" Ref="#PWR0125"  Part="1" 
+AR Path="/5D7D43D9/5DD5155F/5DE26E8B" Ref="#PWR?"  Part="1" 
+AR Path="/5D7D43D9/5E0EF1ED/5DE26E8B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0125" H 15550 1050 50  0001 C CNN
+F 1 "GND" H 15555 1127 50  0000 C CNN
+F 2 "" H 15550 1300 50  0001 C CNN
+F 3 "" H 15550 1300 50  0001 C CNN
+	1    15550 1300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5850 9900
+Wire Wire Line
+	5400 4000 6900 4000
 $EndSCHEMATC
