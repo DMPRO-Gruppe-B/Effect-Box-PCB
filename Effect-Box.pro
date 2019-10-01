@@ -1,4 +1,4 @@
-update=ma. 30. sep. 2019 kl. 14.20 +0200
+update=ti. 01. okt. 2019 kl. 15.55 +0200
 version=1
 last_client=kicad
 [general]
@@ -31,7 +31,7 @@ MinHoleToHole=0.25
 TrackWidth1=0.2
 TrackWidth2=0.2
 TrackWidth3=0.4
-TrackWidth4=1
+TrackWidth4=1.5
 ViaDiameter1=0.48
 ViaDrill1=0.25
 ViaDiameter2=0.6
@@ -244,7 +244,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=High current
 Clearance=0.15
-TrackWidth=1
+TrackWidth=1.5
 ViaDiameter=0.8
 ViaDrill=0.3
 uViaDiameter=0.3
