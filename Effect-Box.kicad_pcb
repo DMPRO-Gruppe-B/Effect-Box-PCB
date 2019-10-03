@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 3522)
-    (tracks 2370)
+    (tracks 2369)
     (zones 0)
     (modules 161)
     (nets 135)
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.4)
+    (last_trace_width 0.2)
     (user_trace_width 0.2)
     (user_trace_width 0.4)
     (user_trace_width 0.8)
@@ -11485,8 +11485,6 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
-  (via (at 119.3165 114.3) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 133))
-  (via (at 114.6175 118.237) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 133))
   (segment (start 231.492 31.578) (end 231.492 31.552998) (width 0.2) (layer F.Cu) (net 1))
   (segment (start 213.106 38.1254) (end 213.106 39.385199) (width 0.4) (layer F.Cu) (net 1))
   (via (at 231.4575 30.734) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
@@ -12308,7 +12306,6 @@
   (segment (start 212.344 126.492) (end 212.344 119.49399) (width 0.2) (layer F.Cu) (net 47))
   (segment (start 217.41 111.435001) (end 217.212 111.633001) (width 0.2) (layer In2.Cu) (net 47))
   (segment (start 217.41 111.393002) (end 217.41 111.435001) (width 0.2) (layer In2.Cu) (net 47))
-  (segment (start 216.154 110.236) (end 216.154002 110.236002) (width 0.2) (layer In2.Cu) (net 48))
   (via (at 211.5185 126.492) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 48))
   (via (at 223.3295 109.6645) (size 0.48) (drill 0.25) (layers F.Cu B.Cu) (net 48))
   (segment (start 223.3295 109.7115) (end 223.798 110.18) (width 0.2) (layer F.Cu) (net 48))
@@ -13309,6 +13306,8 @@
   (segment (start 163.576 94.488) (end 160.782 94.488) (width 0.2) (layer F.Cu) (net 132))
   (segment (start 165.659501 96.571501) (end 163.576 94.488) (width 0.2) (layer F.Cu) (net 132))
   (segment (start 165.659501 97.5995) (end 165.659501 96.571501) (width 0.2) (layer F.Cu) (net 132))
+  (via (at 119.3165 114.3) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 133))
+  (via (at 114.6175 118.237) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 133))
   (segment (start 219.798 100.18) (end 219.86 100.18) (width 0.2) (layer F.Cu) (net 133))
   (via (at 219.329 106.68) (size 0.48) (drill 0.25) (layers F.Cu B.Cu) (net 133))
   (segment (start 218.798 107.18) (end 218.829 107.18) (width 0.2) (layer F.Cu) (net 133))
