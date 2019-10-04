@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.4-e60b266~84~ubuntu19.04.1)
 
   (general
     (thickness 1.6)
@@ -1755,7 +1755,7 @@
   (module Local:FH12A-10S-0.5SH55 (layer F.Cu) (tedit 0) (tstamp 5D93508A)
     (at 164.9095 94.1705 180)
     (path /5D7D441F/5DA84636)
-    (fp_text reference J3 (at 0 -3.429) (layer F.SilkS)
+    (fp_text reference J3 (at -4.0005 -2.6035) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value FH12A-10S-0.5SH55 (at 0 -1.0795) (layer F.SilkS)
@@ -4961,7 +4961,7 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5D8FBF70)
+  (module Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5D9772AC)
     (at 104.648 89.662 90)
     (descr "Through hole straight pin header, 2x10, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x10 2.54mm double row")
